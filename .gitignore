@@ -1,0 +1,13 @@
+# 美术资源不随仓库分发
+assets/
+resources/assets/
+build/
+out/
+*.class
+*.jar
+.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.iml

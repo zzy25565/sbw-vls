@@ -1,0 +1,264 @@
+{
+  "MaxHealth": 200,
+  "MaxEnergy": 7000000,
+  "OBB": [
+    {
+      "Size": [
+        1.3,
+        1,
+        2.6
+      ],
+      "Position": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "TurretPos": [
+    0,
+    1.5,
+    -2
+  ],
+  "TurretTurnSpeed": [
+    20,
+    20
+  ],
+  "TurretPitchRange": [
+    -30,
+    60
+  ],
+  "TurretControllerIndex": 2,
+  "BarrelPos": [
+    0,
+    1,
+    0
+  ],
+  "Seats": [
+    {
+      "IsEnclosed": true,
+      "Transform": "Vehicle",
+      "BanHand": true,
+      "Position": [
+        0.6,
+        0.5,
+        -0.2
+      ],
+      "MinPitch": -30,
+      "MaxPitch": 60,
+      "MinYaw": -95,
+      "MaxYaw": 95,
+      "CameraPos": {
+        "Transform": "Vehicle",
+        "Position": [
+          0.6,
+          1.5,
+          0
+        ]
+      }
+    },
+    {
+      "IsEnclosed": true,
+      "Transform": "Vehicle",
+      "Position": [
+        -0.8,
+        1,
+        -0.2
+      ],
+      "MinPitch": -30,
+      "MaxPitch": 60,
+      "MinYaw": -160,
+      "MaxYaw": 160,
+      "CameraPos": {
+        "Transform": "Vehicle",
+        "Position": [
+          -0.8,
+          1.5,
+          0
+        ]
+      }
+    },
+    {
+      "IsEnclosed": true,
+      "Transform": "Turret",
+      "Position": [
+        0,
+        1,
+        0
+      ],
+      "MinPitch": -30,
+      "MaxPitch": 60,
+      "Weapons": [
+        "MainGun"
+      ],
+      "CanRotateBody": true,
+      "Sensitivity": [
+        1,
+        1,
+        1
+      ],
+      "CameraPos": {
+        "Transform": "Barrel",
+        "ZoomPosition": [
+          0,
+          1.5,
+          2
+        ],
+        "Direction": "Barrel"
+      }
+    }
+  ],
+  "EngineType": "Wheel",
+  "EngineInfo": {
+    "Buoyancy": 0,
+    "EnergyCostRate": 64,
+    "WheelRotSpeed": 1.5,
+    "WheelDifferential": 2,
+    "MaxForwardSpeedRate": 1.5,
+    "MaxBackwardSpeedRate": 1,
+    "Increment": 0.05,
+    "Decrement": 0.03,
+    "SteeringSpeed": 0.25,
+    "EngineSoundVolume": 0.6
+  },
+  "UpStep": 2,
+  "Mass": 3,
+  "RotateOffsetHeight": 0.5,
+  "DamageModifiers": [
+    "All * 0.5",
+    "minecraft:arrow * 0.2",
+    "minecraft:trident * 0.4",
+    "minecraft:mob_attack * 0.4",
+    "minecraft:mob_attack_no_aggro * 0.4",
+    "minecraft:mob_projectile * 0.4",
+    "minecraft:player_attack * 0.4",
+    "minecraft:lava - -4",
+    "minecraft:lava * 4",
+    "@minecraft:tnt * 3",
+    "@minecraft:tnt_minecart * 3",
+    "minecraft:explosion * 4",
+    "minecraft:player_explosion * 4",
+    "superbwarfare:projectile_hit * 0.8",
+    "superbwarfare:grapeshot_hit * 0.2",
+    "@#superbwarfare:aerial_bomb * 1.4",
+    "#superbwarfare:projectile * 0.16",
+    "superbwarfare:vehicle_strike * 0.7",
+    "@superbwarfare:cannon_shell * 0.6",
+    "@superbwarfare:small_cannon_shell * 0.8",
+    "@superbwarfare:gun_grenade * 1.4",
+    "@superbwarfare:rgo_grenade * 3",
+    "@superbwarfare:hand_grenade * 2.5",
+    "@superbwarfare:mortar_shell * 2",
+    "All - 4"
+  ],
+  "VehicleContainerType": "Medium",
+  "DestroyInfo": {
+    "ParticleType": "Huge",
+    "ExplosionDamage": 120,
+    "ExplosionRadius": 7
+  },
+  "ThirdPersonCameraPos": [
+    0,
+    1,
+    5
+  ],
+  "VehicleIcon": "halovecs:textures/vehicle_icon/m12gau_icon.png",
+  "ContainerIcon": "sbw_vls:textures/gui/vehicle/type/land.png",
+  "Type": "Car",
+  "CollisionLevel": {
+    "Level": 3,
+    "PowerLimits": [
+      [
+        0,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        true
+      ],
+      [
+        0.15,
+        0.09,
+        false
+      ],
+      [
+        1,
+        0.3,
+        false
+      ]
+    ]
+  },
+  "EngineSound": "superbwarfare:lav_150_engine",
+  "HornSound": "superbwarfare:car_horn",
+  "TerrainCompat": [
+    [
+      1.3,
+      0,
+      2
+    ],
+    [
+      -1.3,
+      0,
+      2
+    ],
+    [
+      1.3,
+      0,
+      -2
+    ],
+    [
+      -1.3,
+      0,
+      -2
+    ]
+  ],
+  "InertiaRotateRate": 2,
+  "TerrainCompatRotateRate": 5,
+  "Weapons": {
+    "MainGun": {
+      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm.png",
+      "DefaultFireMode": "Semi",
+      "AvailableFireModes": "Semi",
+      "Projectile": "superbwarfare:small_cannon_shell",
+      "Range": 512,
+      "Spread": 0.25,
+      "RPM": 50,
+      "Velocity": 40,
+      "Damage": 350,
+      "ExplosionDamage": 72,
+      "ExplosionRadius": 4,
+      "RecoilTime": 29,
+      "RecoilForce": 0.55,
+      "HeatPerShoot": 0,
+      "NaturalCooldown": 0.7,
+      "ShootAnimationTime": 3,
+      "AmmoCostPerShoot": 1,
+      "AmmoType": [
+        "superbwarfare:small_shell_ap"
+      ],
+      "Crosshair": "@VehicleDynamicCross",
+      "Name": "weapon.halovecs.m12gau_main",
+      "SoundInfo": {
+        "Fire1P": "superbwarfare:prism_tank_fire_high_1p",
+        "Fire3P": "superbwarfare:prism_tank_fire_high_3p",
+        "Change": "superbwarfare:into_missile"
+      },
+      "SoundRadius": 12,
+      "ShootPos": {
+        "Transform": "Barrel",
+        "Positions": [
+          [
+            0,
+            1.5,
+            1.5
+          ]
+        ],
+        "Directions": [
+          "Barrel"
+        ]
+      }
+    }
+  }
+}
