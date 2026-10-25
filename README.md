@@ -46,3 +46,11 @@ resources/
 
 - 多材质载具目前使用单一基色贴图（导出管线不提供材质↔贴图映射），个别部件 UV 可能错位。
 - 武器弹种为占位，需按上游实际投射物 id 调整。
+
+## 依赖关系
+
+| 方向 | 项目 | 说明 |
+|---|---|---|
+| 运行依赖 | Superb Warfare (GPL-3.0) | 必需 |
+| **必需** | [sbw-radar](https://github.com/zzy25565/sbw-radar) | 防空载具的雷达 HUD、TWS 锁定与近炸引信均由该模组提供；缺失时可生成但无法锁定/引导 |
+| 可选搭配 | [sbw-defense](https://github.com/zzy25565/sbw-defense) | 载具的 ERA / APS 数据需要该模组才有实际效果 |
