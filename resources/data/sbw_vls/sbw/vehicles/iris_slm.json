@@ -3,9 +3,9 @@
  "MaxEnergy": 5000000,
  "UpStep": 1.6,
  "TurretPos": [
-  0,
-  0,
-  0
+  0.0005,
+  1.6036,
+  -3.1721
  ],
  "TurretTurnSpeed": [
   1.2,
@@ -17,8 +17,8 @@
  ],
  "BarrelPos": [
   0.0,
-  0.64,
-  1.216
+  0.0,
+  0.0
  ],
  "TurretControllerIndex": 1,
  "Seats": [
@@ -41,96 +41,75 @@
      0.512,
      2.368
     ]
-   }
+   },
+   "Weapons": [
+    "AAMissile"
+   ]
   }
  ],
  "Weapons": {
   "AAMissile": {
-   "AmmoType": [
-    {
-     "Ammo": "superbwarfare:large_anti_air_missile",
-     "ShouldUnload": false
-    }
-   ],
-   "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/ru_9m100.png",
-   "DefaultZoom": 2,
+   "AmmoType": "superbwarfare:medium_anti_air_missile",
+   "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/aam.png",
+   "DefaultZoom": 4,
    "DefaultFireMode": "Semi",
-   "AvailableFireModes": [
-    "Semi"
-   ],
-   "Magazine": 4,
+   "AvailableFireModes": "Semi",
+   "Magazine": 8,
    "EmptyReloadTime": 400,
-   "Projectile": "superbwarfare:ru_9m100_missile",
-   "Name": "weapon.superbwarfare.9m_100_missile",
-   "ProjectileLife": 1600,
-   "Damage": 800,
-   "ExplosionDamage": 320,
-   "ExplosionRadius": 11,
-   "Velocity": 2.3,
-   "ShootDelayTime": 2,
+   "Projectile": "superbwarfare:ru_9m336_missile",
+   "Damage": 180,
+   "ExplosionDamage": 220,
+   "ExplosionRadius": 5,
+   "Velocity": 12,
+   "Gravity": 0.03,
    "SeekWeaponInfo": {
-    "SeekDirection": "Passenger",
-    "CanGuidedByRadar": false,
-    "AffectedByStealthTarget": true,
-    "MaxGuidedRange": 15000,
-    "SeekRange": 1024,
-    "SeekAngle": 20,
+    "SeekDirection": "Barrel",
+    "SeekRange": 512,
+    "SeekAngle": 25,
     "SeekTime": 20,
-    "MinTargetHeight": 32,
+    "MinTargetHeight": 2,
     "MinTargetSize": 0.1,
     "OnlyLockEntity": true
    },
    "ShootPos": {
     "Transform": "Turret",
-    "ShootPositionForHud": [
-     0.0,
-     1.536,
-     -0.768
-    ],
     "Positions": [
      [
-      -0.704,
-      0.704,
-      -0.96
+      -0.802,
+      2.236,
+      0.0
      ],
      [
-      -0.704,
-      0.704,
-      -1.728
+      -0.286,
+      2.236,
+      0.0
      ],
      [
-      0.704,
-      0.704,
-      -0.96
+      0.286,
+      2.236,
+      0.0
      ],
      [
-      0.704,
-      0.704,
-      -1.728
+      0.802,
+      2.236,
+      0.0
      ]
     ],
     "Directions": [
-     [
-      0,
-      1,
-      0
-     ]
-    ],
-    "ViewDirection": "Passenger",
-    "BoundUpWithAmmoAmount": true
+     "Barrel"
+    ]
    },
    "SoundInfo": {
-    "Fire1P": "superbwarfare:happiest_ghast_missile_fire",
-    "Fire3P": "superbwarfare:happiest_ghast_missile_fire",
+    "Fire1P": "superbwarfare:bomb_release",
+    "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "superbwarfare:into_missile",
+    "Change": "superbwarfare:into_cannon",
     "Locking": "superbwarfare:javelin_locking",
-    "Locked": "superbwarfare:javelin_locked"
+    "Locked": "superbwarfare:javelin_locking"
    },
    "CrosshairColor": "0xFFC700",
    "Crosshair": "@VehicleCommonSeekMissile",
-   "CrosshairZooming": "@VehicleCommonSeekMissile",
    "SoundRadius": 8
   }
  },
@@ -227,7 +206,10 @@
     0.0,
     2.8084,
     -0.688
-   ]
+   ],
+   "Part": "Collision",
+   "Transform": "Vehicle",
+   "Rotation": "Vehicle"
   },
   {
    "Size": [
@@ -236,9 +218,9 @@
     7.2071
    ],
    "Position": [
-    0.0005,
-    2.8466,
-    -3.1721
+    0.0,
+    1.243,
+    0.0
    ],
    "Part": "Turret",
    "Transform": "Turret",

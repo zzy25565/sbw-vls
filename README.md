@@ -1,6 +1,6 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **175 台**载具定义。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **181 台**载具定义。版本 **1.0.0a**。
 
 ## ⚠️ 依赖
 
@@ -17,7 +17,7 @@ Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当�
 java/                35 个 Java 源文件（实体、渲染器、资产加载）
 resources/
 ├── pack.mcmeta
-└── data/sbw_vls/sbw/vehicles/    175 个载具定义 JSON
+└── data/sbw_vls/sbw/vehicles/    181 个载具定义 JSON
 ```
 
 > **美术资源不在本仓库**：`assets/` 下的几何（`.geo.json`）与贴图（`.png`）属于游戏衍生资源，未随仓库分发。构建时需自行放入。
@@ -42,10 +42,41 @@ resources/
 
 三台的几何均由 War Thunder 客户端导出后转换，**保留全部面数**（243k / 283k / 261k 面）。
 
+## 版本号规则
+
+自本版起采用 `1.0.0a → 1.0.0b → 1.0.0c → 1.0.0final` 的阶段性命名，字母表示迭代快照，
+`final` 为该轮定稿。此前用的 `2.0.x` 系列已废弃。
+
+## 2026-10-27 新增（9 台，同步现 181 台）
+
+模型来自 War Thunder 客户端导出，逐面与源 OBJ 对照 100% 一致（尺度、轴向、UV、面数）。
+
+| 载具 | 类型 | HP | 武器 | 弹体 |
+|---|---|---:|---|---|
+| `bmd_4m` | APC | 300 | 100mm 2A70 + 30mm 2A72 + 7.62 PKT | cannon_shell / small_cannon_shell / projectile |
+| `bmp_3` | APC | 320 | 100mm 2A70 + 30mm 2A72 + 7.62 PKT | 同上 |
+| `zsu_23_4` | APC | 260 | 四管 23mm（真实配置，无导弹） | small_cannon_shell |
+| `challenger_2` | Tank | 620 | 120mm L30 + 7.62 同轴 | cannon_shell / projectile |
+| `leopard_2a5` | Tank | 560 | 120mm Rh120 + 7.62 同轴 | cannon_shell / projectile |
+| `t_80bvm` | Tank | 420 | 125mm 2A46M-4 + 7.62 PKT | cannon_shell / projectile |
+| `t_80u` | Tank | 400 | 125mm 2A46M-1 + 7.62 PKT（修正：原为 23mm 高炮占位） | cannon_shell / projectile |
+| `iris_slm` | AA | 260 | 8 联装防空弹 | ru_9m336_missile |
+| `iris_slm_fcs` | AA | 240 | 无武器（雷达车） | — |
+
+武器弹种全部取自上游 SBW 原生 ID（`superbwarfare:` 与 `@RifleAmmo` 等别名），
+不引用第三方命名空间（如 `dragonrise_reforge:`），保证在只装 SBW 的实例上可运行。
+
+### 碰撞箱
+
+- `OBB` 的 `Transform:"Turret"` 坐标是**相对 `TurretPos`** 的（包内 2s25m / 2s38 / 625e 三台为证）。
+- 炮塔轴与炮口位置由模型部件分组（`turret` / `gun_barrel` / `gun_mask`）实算，不是克隆旧车坐标。
+- 全量 181 台碰撞箱审查：0 个 ERR。修复了 `amx56`（负尺寸盒）、`strv103`（零体积盒）、
+  `motuo`（Type=Car 但碰撞盒为空）。遗留 57 台「有主炮无炮塔盒」属数据质量提示，不影响运行。
+
 ## 说明
 
 - 多材质载具目前使用单一基色贴图（导出管线不提供材质↔贴图映射），个别部件 UV 可能错位。
-- 武器弹种为占位，需按上游实际投射物 id 调整。
+- 座位、第三人称相机为按车体尺寸估算，需实测微调。
 
 ## 依赖关系
 
