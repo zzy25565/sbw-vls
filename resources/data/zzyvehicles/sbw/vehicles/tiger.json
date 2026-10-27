@@ -3,20 +3,6 @@
  "MaxEnergy": 20000000,
  "OBB": [
   {
-   "Part": "Turret",
-   "Rotation": "Turret",
-   "Size": [
-    1.25,
-    0.5625,
-    1.40625
-   ],
-   "Position": [
-    0,
-    2.375,
-    0.21875
-   ]
-  },
-  {
    "Size": [
     1.71875,
     0.375,
@@ -78,6 +64,21 @@
     0.65625,
     -0.03125
    ]
+  },
+  {
+   "Size": [
+    1.4468,
+    0.6537,
+    1.5181
+   ],
+   "Position": [
+    0.0093,
+    0.4054,
+    -0.1416
+   ],
+   "Part": "Turret",
+   "Transform": "Turret",
+   "Rotation": "Turret"
   }
  ],
  "Seats": [
@@ -288,9 +289,9 @@
   "EngineSoundVolume": 1.0
  },
  "TurretPos": [
-  0,
-  1.6584375,
-  0.03
+  -0.0093,
+  2.076,
+  0.0366
  ],
  "BarrelPos": [
   0,

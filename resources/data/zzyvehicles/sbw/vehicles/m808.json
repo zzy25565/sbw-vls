@@ -25,12 +25,27 @@
     3,
     -2
    ]
+  },
+  {
+   "Size": [
+    1.7182,
+    1.5903,
+    2.1857
+   ],
+   "Position": [
+    0.0,
+    0.3433,
+    -0.7921
+   ],
+   "Part": "Turret",
+   "Transform": "Turret",
+   "Rotation": "Turret"
   }
  ],
  "TurretPos": [
-  0,
-  3,
-  -2
+  0.0,
+  3.2812,
+  -3.4062
  ],
  "TurretTurnSpeed": [
   7,

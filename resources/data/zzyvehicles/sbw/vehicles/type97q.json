@@ -40,20 +40,6 @@
    ]
   },
   {
-   "Part": "Turret",
-   "Size": [
-    0.59375,
-    0.25,
-    0.65625
-   ],
-   "Position": [
-    0.0,
-    1.75,
-    0.0
-   ],
-   "Rotation": "Turret"
-  },
-  {
    "Part": "WheelLeft",
    "Size": [
     0.1875,
@@ -78,6 +64,21 @@
     0.5625,
     0.0
    ]
+  },
+  {
+   "Size": [
+    0.9107,
+    0.3354,
+    1.1023
+   ],
+   "Position": [
+    0.01,
+    0.3447,
+    -0.2175
+   ],
+   "Part": "Turret",
+   "Transform": "Turret",
+   "Rotation": "Turret"
   }
  ],
  "Seats": [
@@ -275,9 +276,9 @@
   "EngineSoundVolume": 1.0
  },
  "TurretPos": [
-  -0.25105625,
-  1.54700625,
-  0.32345625
+  -0.2511,
+  1.547,
+  0.3235
  ],
  "BarrelPos": [
   -0.04833125,

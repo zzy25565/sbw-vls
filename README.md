@@ -1,6 +1,6 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0c**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0d**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
 > 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
@@ -79,6 +79,48 @@ resources/
 `is2`（宽达车体 90%）、`tiger`（高 106%）、`m4a2`、`type97q`（只有 3 个立方体，碎片）、`m808`（纵向偏 43% 车长）。
 这 5 台要修的是模型骨骼，不是 OBB。
 `strv103` / `markv` / `test` 本来就没有炮塔（无炮塔歼击车 / 一战侧舷炮 / 测试条目），不补。
+
+## 1.0.0d：炮塔骨骼重划 + OBB 半尺寸语义修正
+
+### 关键修正：`OBB.Size` 是半尺寸
+
+实测 `OBBInfo.getOBB()` 把 Size 直接传给 `OBB.extents`，`OBB.getVertices()` 取 `±extents`：
+
+```java
+new OBB(Vector3d(0,0,0), vec3ToVector3d(this.size), new Quaterniond(), part)   // extents = Size
+// getVertices(): 8 个角点 = (±extents.x, ±extents.y, ±extents.z)
+```
+
+即 **Size = 盒子半尺寸**，不是完整边长。1.0.0c 及之前的自动生成盒把完整尺寸写了进去
+（载具包作者手写的盒一直是对的），本次全部减半。受影响：
+`bmd_4m` / `bmp_3` / `challenger_2` / `iris_slm` / `iris_slm_fcs` / `leopard_2a5` / `t_80bvm` / `t_80u` / `zsu_23_4`。
+
+### 5 台炮塔骨骼重划分（is2 / tiger / m4a2 / type97q / m808）
+
+原 `turret` 骨骼混入了车体立方体，导致炮塔包围盒等于整车。已按几何重新归属立方体
+（几何字节、立方体总数、identifier 全部未变，只改骨骼归属），并补上炮塔盒：
+
+| 载具 | 炮塔全尺寸（宽×高×长，块） | TurretPos |
+|---|---|---|
+| is2 | 2.580 × 1.313 × 4.073 | [0, 1.9386, 0.3631] |
+| tiger | 2.894 × 1.307 × 3.036 | [-0.0093, 2.076, 0.0366] |
+| m4a2 | 2.055 × 0.988 × 2.190 | [0, 1.707, 0.0625] |
+| type97q | 1.821 × 0.671 × 2.205 | [-0.2511, 1.547, 0.3235] |
+| m808 | 3.436 × 3.181 × 4.371 | [0, 3.2812, -3.4062] |
+
+同时移除这 5 台原有的、未写 `Transform` 的旧炮塔盒，避免同一台车两个炮塔盒导致重复计伤。
+
+### 另两处修正
+
+- `m3stuart` / `panzer4` / `t3476` / `type3` / `type97`：它们本来就有作者手写的 `Part:"Turret"` 盒
+  （只是没写 `Transform`，旧审查误判为"缺"），1.0.0c 追加的盒是用带 bug 的旋转算的，已撤销。
+- `iris_slm` / `iris_slm_fcs` / `t_80u`：`assets` 与 `data` 两份数据重新同步。
+
+### 关于旋转计算（踩过的坑）
+
+`SimpleBedrockModel.BedrockModel.initialWithBoneItems` 对 X 取反、按 Z-Y-X 顺序应用欧拉角；
+换算回模型坐标等价于 `(-X, +Y, -Z)`，且必须**递归应用父骨骼变换**。
+用朴素的 `(+X,+Y,+Z)` 且不递归会得出"炮塔比车体还宽"之类的错误结论。
 
 ## 版本号规则
 
