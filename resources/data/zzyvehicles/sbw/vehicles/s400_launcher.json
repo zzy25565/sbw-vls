@@ -1,0 +1,469 @@
+{
+  "MaxHealth": 300,
+  "MaxEnergy": 5000000,
+  "Mass": 40,
+  "OBB": [
+    {
+      "Size": [
+        1.65,
+        1.1,
+        9.07080078125
+      ],
+      "Position": [
+        0.0,
+        1.1,
+        0.0
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "Collision"
+    },
+    {
+      "Size": [
+        0.2844283878803253,
+        0.6505694417282939,
+        0.6505697965621948
+      ],
+      "Position": [
+        1.115750402212143,
+        0.6638473244383931,
+        -4.348295331001282
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.0647348165512085,
+        0.09701552987098694,
+        0.097015380859375
+      ],
+      "Position": [
+        1.2098488807678223,
+        0.6676929295063019,
+        -4.3499755859375
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.2844283878803253,
+        0.6505694417282939,
+        0.6505694389343262
+      ],
+      "Position": [
+        1.115750402212143,
+        0.6638473244383931,
+        -5.884567737579346
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.0647348165512085,
+        0.09701550006866455,
+        0.097015380859375
+      ],
+      "Position": [
+        1.2098488807678223,
+        0.6676928997039795,
+        -5.884632110595703
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.2844283878803253,
+        0.6505694417282939,
+        0.6505697965621948
+      ],
+      "Position": [
+        -1.115750402212143,
+        0.6638473244383931,
+        -4.348295331001282
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    },
+    {
+      "Size": [
+        0.06473511457443237,
+        0.09701552987098694,
+        0.097015380859375
+      ],
+      "Position": [
+        -1.2098485827445984,
+        0.6676929295063019,
+        -4.3499755859375
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    },
+    {
+      "Size": [
+        0.2844283878803253,
+        0.6505694417282939,
+        0.6505694389343262
+      ],
+      "Position": [
+        -1.115750402212143,
+        0.6638473244383931,
+        -5.884567737579346
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    },
+    {
+      "Size": [
+        0.06473511457443237,
+        0.09701550006866455,
+        0.097015380859375
+      ],
+      "Position": [
+        -1.2098485827445984,
+        0.6676928997039795,
+        -5.884632110595703
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    },
+    {
+      "Size": [
+        2.1015336513519287,
+        4.382339000701904,
+        6.554645538330078
+      ],
+      "Position": [
+        0.0,
+        4.382339000701904,
+        -2.516155242919922
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle"
+    },
+    {
+      "Size": [
+        1.672572910785675,
+        2.2064518313854933,
+        4.670988917350769
+      ],
+      "Position": [
+        2.980232238769531e-07,
+        2.225982727482915,
+        4.399811863899231
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle"
+    },
+    {
+      "Size": [
+        0.2628423869609833,
+        0.6739088902249932,
+        0.6739087104797363
+      ],
+      "Position": [
+        1.105858713388443,
+        0.6934400191530585,
+        2.276487350463867
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.2628423869609833,
+        0.6739089014008641,
+        0.6739091873168945
+      ],
+      "Position": [
+        1.105858713388443,
+        0.6934407232329249,
+        6.534921646118164
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.2628423869609833,
+        0.6739089470356703,
+        0.6739088296890259
+      ],
+      "Position": [
+        1.105858713388443,
+        0.6934398431330919,
+        0.8580234050750732
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelLeft"
+    },
+    {
+      "Size": [
+        0.2628420889377594,
+        0.6739089014008641,
+        0.6739091873168945
+      ],
+      "Position": [
+        -1.1058590114116669,
+        0.6934407232329249,
+        6.534921646118164
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    },
+    {
+      "Size": [
+        0.2628420889377594,
+        0.6739088902249932,
+        0.6739087104797363
+      ],
+      "Position": [
+        -1.1058590114116669,
+        0.6934400191530585,
+        2.276487350463867
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    },
+    {
+      "Size": [
+        0.2628420889377594,
+        0.6739089470356703,
+        0.6739088296890259
+      ],
+      "Position": [
+        -1.1058590114116669,
+        0.6934398431330919,
+        0.8580234050750732
+      ],
+      "Transform": "Vehicle",
+      "Rotation": "Vehicle",
+      "Part": "WheelRight"
+    }
+  ],
+  "Seats": [
+    {
+      "HidePassenger": true,
+      "IsEnclosed": true,
+      "Transform": "Vehicle",
+      "Position": [
+        0.55,
+        1.7000000000000002,
+        7.87080078125
+      ],
+      "RotateWithVehicle": true,
+      "CanRotateHead": true,
+      "MinPitch": -80,
+      "MaxPitch": 80,
+      "Weapons": [],
+      "CameraPos": {
+        "Transform": "Vehicle",
+        "Position": [
+          0.55,
+          3.2,
+          8.27080078125
+        ],
+        "ZoomPosition": [
+          0.55,
+          3.2,
+          8.27080078125
+        ],
+        "Direction": "Default",
+        "UseFixedCameraPos": true
+      },
+      "DismountInfo": {
+        "Transform": "Vehicle",
+        "Position": [
+          3.1015336513519287,
+          0.375,
+          7.87080078125
+        ]
+      }
+    }
+  ],
+  "Weapons": {
+    "AAMissile": {
+      "AmmoType": [
+        {
+          "Ammo": "superbwarfare:large_anti_air_missile",
+          "ShouldUnload": false
+        }
+      ],
+      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/ru_9m100.png",
+      "DefaultZoom": 2,
+      "DefaultFireMode": "Semi",
+      "Magazine": 4,
+      "EmptyReloadTime": 480,
+      "Projectile": "zzyvehicles:buk_missile_01",
+      "Name": "weapon.zzyvehicles.9m317m_s400",
+      "ProjectileLife": 1800,
+      "Damage": 900,
+      "ExplosionDamage": 360,
+      "ExplosionRadius": 12,
+      "Velocity": 2.3,
+      "ShootDelayTime": 2,
+      "SeekWeaponInfo": {
+        "SeekDirection": "Passenger",
+        "CanGuidedByRadar": true,
+        "AffectedByStealthTarget": true,
+        "MaxGuidedRange": 18000,
+        "SeekRange": 1024,
+        "SeekAngle": 20,
+        "SeekTime": 20,
+        "MinTargetHeight": 32,
+        "MinTargetSize": 0.1,
+        "OnlyLockEntity": true
+      },
+      "ShootPos": {
+        "Transform": "Vehicle",
+        "ShootPositionForHud": [
+          0.0,
+          3.8,
+          -4.8
+        ],
+        "Positions": [
+          [
+            -0.8,
+            3.6,
+            -4.2
+          ],
+          [
+            0.8,
+            3.6,
+            -4.2
+          ],
+          [
+            -0.8,
+            3.6,
+            -5.6
+          ],
+          [
+            0.8,
+            3.6,
+            -5.6
+          ]
+        ],
+        "Directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "ViewDirection": "Passenger",
+        "BoundUpWithAmmoAmount": true
+      },
+      "SoundInfo": {
+        "Fire1P": "superbwarfare:happiest_ghast_missile_fire",
+        "Fire3P": "superbwarfare:happiest_ghast_missile_fire",
+        "VehicleReload3p": "superbwarfare:bomb_reload",
+        "VehicleReloadSoundTime": 11,
+        "Change": "superbwarfare:into_missile",
+        "Locking": "superbwarfare:javelin_locking",
+        "Locked": "superbwarfare:javelin_locked"
+      },
+      "CrosshairColor": "0xFFC700",
+      "Crosshair": "@VehicleCommonMissile",
+      "CrosshairZooming": "@VehicleCommonSeekMissile",
+      "SoundRadius": 8,
+      "AvailableFireModes": [
+        "Semi"
+      ]
+    }
+  },
+  "EngineType": "Wheel",
+  "UpStep": 0.8,
+  "RotateOffsetHeight": 1.1,
+  "InertiaRotateRate": 0.4,
+  "ThirdPersonCameraPos": [
+    0,
+    0.5,
+    28.119482421875002
+  ],
+  "Type": "AA",
+  "HudType": "@Land",
+  "VehicleContainerType": "Medium",
+  "VehicleIcon": "zzyvehicles:textures/vehicle_icon/s400_launcher.png",
+  "ContainerIcon": "superbwarfare:textures/gui/vehicle/type/land.png",
+  "EngineInfo": {
+    "Buoyancy": 0,
+    "EnergyCostRate": 64,
+    "WheelRotSpeed": 1,
+    "WheelDifferential": 0.5,
+    "MaxForwardSpeedRate": 0.55,
+    "MaxBackwardSpeedRate": 0.25,
+    "Increment": 0.008,
+    "Decrement": 0.008,
+    "SteeringSpeed": 0.035,
+    "EngineSoundVolume": 0.4
+  },
+  "TerrainCompat": [
+    [
+      1.1160000562667847,
+      0.013831830024719216,
+      -4.347403526306152
+    ],
+    [
+      1.1160000562667847,
+      0.013831830024719216,
+      -5.885403633117676
+    ],
+    [
+      -1.1160000562667847,
+      0.013831830024719216,
+      -4.347403526306152
+    ],
+    [
+      -1.1160000562667847,
+      0.013831830024719216,
+      -5.885403633117676
+    ],
+    [
+      1.3109999895095825,
+      0.01943185424804683,
+      2.2765965461730957
+    ],
+    [
+      1.3109999895095825,
+      0.01943185424804683,
+      6.53559684753418
+    ],
+    [
+      1.3109999895095825,
+      0.01943185424804683,
+      0.8575965166091919
+    ],
+    [
+      -1.3109999895095825,
+      0.01943185424804683,
+      6.53559684753418
+    ],
+    [
+      -1.3109999895095825,
+      0.01943185424804683,
+      2.2765965461730957
+    ],
+    [
+      -1.3109999895095825,
+      0.01943185424804683,
+      0.8575965166091919
+    ]
+  ],
+  "EngineSound": "superbwarfare:truck_engine"
+}

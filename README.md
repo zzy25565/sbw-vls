@@ -1,6 +1,9 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **181 台**载具定义。版本 **1.0.0a**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0b**。
+
+> **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
+> 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
 
 ## ⚠️ 依赖
 
@@ -17,7 +20,7 @@ Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当�
 java/                35 个 Java 源文件（实体、渲染器、资产加载）
 resources/
 ├── pack.mcmeta
-└── data/sbw_vls/sbw/vehicles/    181 个载具定义 JSON
+└── data/zzyvehicles/sbw/vehicles/    185 个载具定义 JSON
 ```
 
 > **美术资源不在本仓库**：`assets/` 下的几何（`.geo.json`）与贴图（`.png`）属于游戏衍生资源，未随仓库分发。构建时需自行放入。
@@ -41,6 +44,22 @@ resources/
 | `t_80u` | T-80U，380 HP，履带，主炮 |
 
 三台的几何均由 War Thunder 客户端导出后转换，**保留全部面数**（243k / 283k / 261k 面）。
+
+## 1.0.0b：命名空间合并
+
+| 项 | 1.0.0a | 1.0.0b |
+|---|---|---|
+| 资源命名空间 | `sbw_vls` + `zzyvehicles` 两套 | **只有 `zzyvehicles`** |
+| 实体注册 | `SbwVlsMod.MODID = "sbw_vls"` | `"zzyvehicles"`，与 mod id 一致 |
+| 注册条目 | 171 | **180**（补入 9 台 WT 导出载具） |
+| 资源引用 | 混用两个命名空间 | 全部改写为 `zzyvehicles:` |
+| jar 体积 | 292.4 MB | 226.3 MB（去掉重复模型） |
+
+合并时处理的冲突：`buk_m3` 在两个命名空间各有一份（150 骨骼高精版 / 3 骨骼合并版），
+保留高精版并丢弃合并版的数据（它从未注册实体）。
+
+> 注：合并后的数据里仍有 2202 处 `dragonrise_reforge:` / `snvx:` 资源引用，
+> 这些是原始 171 台车自带的武器图标与音效，需要安装对应整合包才有图有声。本包不影响载具本身。
 
 ## 版本号规则
 

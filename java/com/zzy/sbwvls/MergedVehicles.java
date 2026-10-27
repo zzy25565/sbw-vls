@@ -194,6 +194,16 @@ public final class MergedVehicles {
         SIZES.put("ztz99ah", new float[]{3.67f, 1.85f, 8.45f});
         SIZES.put("ztz99bh", new float[]{3.67f, 1.85f, 8.45f});
         SIZES.put("zu23", new float[]{3.0f, 2.5f, 6.0f});
+        // 1.0.0b 新增（模型来自 WT 导出，尺寸取模型包围盒，块）
+        SIZES.put("bmd_4m", new float[]{3.97f, 3.20f, 8.19f});
+        SIZES.put("bmp_3", new float[]{4.11f, 3.34f, 8.66f});
+        SIZES.put("challenger_2", new float[]{4.74f, 3.83f, 14.65f});
+        SIZES.put("iris_slm", new float[]{3.45f, 5.62f, 12.95f});
+        SIZES.put("iris_slm_fcs", new float[]{3.45f, 8.58f, 13.06f});
+        SIZES.put("leopard_2a5", new float[]{4.43f, 3.58f, 11.79f});
+        SIZES.put("t_80bvm", new float[]{4.82f, 3.54f, 11.61f});
+        SIZES.put("t_80u", new float[]{4.41f, 3.53f, 11.51f});
+        SIZES.put("zsu_23_4", new float[]{3.80f, 4.27f, 7.75f});
     }
 
     @SubscribeEvent
