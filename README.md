@@ -1,6 +1,6 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0d**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0e**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
 > 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
@@ -121,6 +121,24 @@ new OBB(Vector3d(0,0,0), vec3ToVector3d(this.size), new Quaterniond(), part)   /
 `SimpleBedrockModel.BedrockModel.initialWithBoneItems` 对 X 取反、按 Z-Y-X 顺序应用欧拉角；
 换算回模型坐标等价于 `(-X, +Y, -Z)`，且必须**递归应用父骨骼变换**。
 用朴素的 `(+X,+Y,+Z)` 且不递归会得出"炮塔比车体还宽"之类的错误结论。
+
+## 1.0.0e：骨骼名对齐上游变换约定
+
+上游 `VehicleModel` 用**精确骨骼名**驱动变换：`base` / `root` / `turret` / `barrel` / `passengerWeaponStation`
+（另有 `turretLaser` / `barrelLaser`；轮组、履带、外壳等由 `VehicleModelBoneGroups` 的正则匹配）。
+名称必须精确相等，不是包含关键字。
+
+`is2` / `tiger` 的根骨骼原本叫 `Tank`，缺 `base`，武器与车体变换接不上。本次改名：
+
+| 载具 | 改动 | 子骨骼引用 | 立方体数 |
+|---|---|---|---:|
+| is2 | `Tank` → `base` | 2 个 | 604（不变） |
+| tiger | `Tank` → `base` | 2 个 | 579（不变） |
+
+改后父链：`turret ← base`，无缺失父引用。`m4a2` / `type97q` 已有 `base`，`m808` 连 `root` 都有，未改动。
+
+> 观察（未改）：`is2` 与 `tiger` 各有一个轮骨骼（`Wheel15` / `Wheel8`）挂在根层、不在 `base` 之下。
+> 它对整车移动无影响（根骨骼同样随实体变换），只在车体被单独动画时才会看出来。
 
 ## 版本号规则
 
