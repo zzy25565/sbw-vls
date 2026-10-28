@@ -1,6 +1,21 @@
 # 美术资源不随仓库分发
-assets/
-resources/assets/
+/assets/
+resources/assets/*
+# 例外：5 台重划分骨骼的模型（骨骼归属逐立方体判定，无法由导出流程复现），随仓库分发
+# 注意：gitignore 规定「父目录被排除时子文件的 ! 无效」，所以沿途目录要先放行目录、再排除内容
+!resources/assets/zzyvehicles/
+resources/assets/zzyvehicles/*
+!resources/assets/zzyvehicles/models/
+resources/assets/zzyvehicles/models/*
+!resources/assets/zzyvehicles/models/bedrock/
+resources/assets/zzyvehicles/models/bedrock/*
+!resources/assets/zzyvehicles/models/bedrock/vehicle/
+resources/assets/zzyvehicles/models/bedrock/vehicle/*
+!resources/assets/zzyvehicles/models/bedrock/vehicle/is2.geo.json
+!resources/assets/zzyvehicles/models/bedrock/vehicle/tiger.geo.json
+!resources/assets/zzyvehicles/models/bedrock/vehicle/m4a2.geo.json
+!resources/assets/zzyvehicles/models/bedrock/vehicle/type97q.geo.json
+!resources/assets/zzyvehicles/models/bedrock/vehicle/m808.geo.json
 build/
 out/
 *.class

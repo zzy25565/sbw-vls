@@ -8,6 +8,10 @@
 |---|---|---:|
 | `resources/data/zzyvehicles/sbw/vehicles/*.json` | 185 份载具定义（碰撞箱、武器、座席、动力） | ≈ 1.4 MB |
 | `java/` | 35 个 Java 源文件 | ≈ 0.2 MB |
+| `resources/assets/zzyvehicles/models/bedrock/vehicle/{is2,tiger,m4a2,type97q,m808}.geo.json` | 5 台**重划分炮塔骨骼**的模型（cubes） | ≈ 0.86 MB |
+
+这 5 台模型是 `.gitignore` 的**唯一例外**：骨骼归属是逐立方体判定的结果，重跑导出流程复现不出来。
+`.gitignore` 里为此写了四层目录放行 + 5 条文件取反（git 规定父目录被排除时子文件的 `!` 无效）。
 
 ## 被 `.gitignore` 排除（当前不入库）
 
@@ -16,19 +20,13 @@
 
 | 资产 | 体积 | 说明 |
 |---|---:|---|
-| 5 台重划分骨骼的模型 `{is2,tiger,m4a2,type97q,m808}.geo.json` | 0.86 MB | 骨骼归属是重划分成果，**不可由导出流程复现**（见下） |
 | 9 台 WT 导出的 poly_mesh 模型 | 约 200 MB | 可由 OBJ 重转 |
 | 其余 176 台的 cubes 模型 | 约 60 MB | 上游整合包原有 |
 | 贴图 | 约 85 MB | 同上 |
 | `zzy-vehicles-*.jar` | 226 MB | 构建产物 |
 
-> **待决**：那 5 台重划骨骼的 geo 只占 0.86 MB，且无法由脚本复现（骨骼归属是逐立方体手工/脚本判定的结果）。
-> 若希望仓库能完整复现模型层，需要把 `.gitignore` 加一条例外：
-> ```
-> !resources/assets/zzyvehicles/models/bedrock/vehicle/is2.geo.json
-> …（其余 4 台同理）
-> ```
-> 当前按既有策略保持不入库。
+> 说明：`/assets/` 与 `resources/assets/*` 覆盖其余全部美术资源；
+> 只有上述 5 个 geo 通过取反规则入库，其余 `resources/assets/**` 仍被忽略。
 
 ## 未入库
 
