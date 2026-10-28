@@ -20,7 +20,9 @@ Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当�
 java/                35 个 Java 源文件（实体、渲染器、资产加载）
 resources/
 ├── pack.mcmeta
-└── data/zzyvehicles/sbw/vehicles/    185 个载具定义 JSON
+├── data/zzyvehicles/sbw/vehicles/    185 个载具定义 JSON
+└── assets/zzyvehicles/models/bedrock/vehicle/
+    └── {is2,tiger,m4a2,type97q,m808}.geo.json   5 台重划分骨骼的模型
 ```
 
 > **美术资源不在本仓库**：`assets/` 下的几何（`.geo.json`）与贴图（`.png`）属于游戏衍生资源，未随仓库分发。构建时需自行放入。
