@@ -7,11 +7,28 @@
 | 路径 | 内容 | 体积 |
 |---|---|---:|
 | `resources/data/zzyvehicles/sbw/vehicles/*.json` | 185 份载具定义（碰撞箱、武器、座席、动力） | ≈ 1.4 MB |
-| `resources/assets/zzyvehicles/models/bedrock/vehicle/{is2,tiger,m4a2,type97q,m808}.geo.json` | 5 台**重划分炮塔骨骼**的模型（cubes 格式） | ≈ 0.85 MB |
 | `java/` | 35 个 Java 源文件 | ≈ 0.2 MB |
 
-这 5 台模型入库的理由：它们的骨骼归属是**手工/脚本重划分**的成果（见 README 1.0.0d），
-不重新跑一遍导出流程无法复现，属于不可再生的源资产。
+## 被 `.gitignore` 排除（当前不入库）
+
+`.gitignore` 里写着 `assets/` 与 `resources/assets/` —— **美术资源不随仓库分发**。
+因此下面这些即使在本地生成，也不会进版本库：
+
+| 资产 | 体积 | 说明 |
+|---|---:|---|
+| 5 台重划分骨骼的模型 `{is2,tiger,m4a2,type97q,m808}.geo.json` | 0.86 MB | 骨骼归属是重划分成果，**不可由导出流程复现**（见下） |
+| 9 台 WT 导出的 poly_mesh 模型 | 约 200 MB | 可由 OBJ 重转 |
+| 其余 176 台的 cubes 模型 | 约 60 MB | 上游整合包原有 |
+| 贴图 | 约 85 MB | 同上 |
+| `zzy-vehicles-*.jar` | 226 MB | 构建产物 |
+
+> **待决**：那 5 台重划骨骼的 geo 只占 0.86 MB，且无法由脚本复现（骨骼归属是逐立方体手工/脚本判定的结果）。
+> 若希望仓库能完整复现模型层，需要把 `.gitignore` 加一条例外：
+> ```
+> !resources/assets/zzyvehicles/models/bedrock/vehicle/is2.geo.json
+> …（其余 4 台同理）
+> ```
+> 当前按既有策略保持不入库。
 
 ## 未入库
 
