@@ -1,5 +1,11 @@
 # SBW VLS 载具包（zzy-vehicles）
 
+[![最新版本](https://img.shields.io/github/v/release/zzy25565/sbw-vls)](https://github.com/zzy25565/sbw-vls/releases/latest)
+
+> **jar 不在仓库里**（`.gitignore` 排除 `*.jar`，且 GitHub 单文件上限 100 MB）。
+> 打包好的整合包请到 [Releases](https://github.com/zzy25565/sbw-vls/releases/latest) 下载。
+
+
 Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0j**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
