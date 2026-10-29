@@ -1,6 +1,6 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0f**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0g**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
 > 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
@@ -160,6 +160,39 @@ new OBB(Vector3d(0,0,0), vec3ToVector3d(this.size), new Quaterniond(), part)   /
 `ah1f` 的旋翼问题（桨叶沿机身纵轴排布）已用 Blender 渲染确认，待处理。
 
 审查脚本：`SBW/review/audit_aircraft_v2.py`（43 台飞行器全检）。
+
+## 1.0.0g：从 ashvehicle 搬入 6 台知名固定翼
+
+来源：`ashvehicle-1.21.1-4.6-8.9.jar`（44 台载具 / 33 台飞行器）。选 6 台**不与本包重名**的知名机型：
+
+| id | 机型 | 模型（块） | 武器改写 |
+|---|---|---|---|
+| `v-22` | V-22 鱼鹰 | 28.4 × 14.1 × 20.4 | 无（原本就用上游弹药） |
+| `f-117` | F-117 夜鹰 | 19.2 × 6.3 × 24.0 | 无 |
+| `su-57` | 苏-57 | 22.6 × 15.4 × 22.9 | 3 处（R-60 换上游 R-9M336） |
+| `f-22` | F-22 猛禽 | 32.3 × 8.0 × 27.7 | 8 处（AIM-9/120 换上游） |
+| `f-35a` | F-35A | 9.7 × 5.3 × 25.6 | 9 处（AGM-158/AIM-120 换上游） |
+| `b-2` | B-2 幽灵 | 52.9 × 5.2 × 19.3 | 5 处（GBU-57／核弹换 MK-82） |
+
+### 搬迁必须做的事
+
+ashvehicle 用**扁平资产布局**（`assets/ashvehicle/geo/<id>.geo.json` + `textures/entity/<id>.png`），
+靠它自己的渲染器解析；上游按约定路径找模型。所以每台都要：
+
+1. geo → `assets/zzyvehicles/models/bedrock/vehicle/<id>.geo.json`
+2. 贴图 → `assets/zzyvehicles/textures/bedrock/vehicle/<id>.png`
+3. **新建模型索引** `assets/zzyvehicles/sbw/vehicles/<id>.json`（指向上面两个路径）
+4. data → `data/zzyvehicles/sbw/vehicles/<id>.json`，并改写：
+   - `ID` → `zzyvehicles:<id>`
+   - 武器 `Projectile` / `AmmoType` / `Icon` → 上游等价物（见映射表）
+   - `SoundInfo`（自有音效）、`EngineSound`（自有引擎声）→ 删除，回落默认
+   - 其余 `ashvehicle:` 引用（HUD 图/小图）→ 删键
+5. `MergedVehicles.SIZES` 补注实体尺寸（取模型 bbox 的宽高）
+
+验证：6 台 data/索引/geo/贴图齐全，`ashvehicle:` 残留 **0**，飞行器总数 42 → **48**，全量碰撞箱审查 0 ERR。
+
+> 注意：`b-2` 的核弹武器（`nuke_bomb`）被映射成 `mk_82`，因为上游没有对应弹种。
+> 如需保留核弹效果，得自行实现投射物。
 
 ## 版本号规则
 
