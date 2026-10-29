@@ -40,12 +40,12 @@ public final class CreativeTabs {
                 "type100", "type3", "type97", "type97q", "vt4a1", "vt4b", "ztq15", "ztz59a", "ztz96a", "ztz99a",
                 "ztz99ah", "ztz99bh"
                 );
-        cat("apc", "bmp3",
-                "2s38", "aav7a1", "aavc7c1", "ba10", "bmd4", "bmd4m", "bmp3", "bmpt72", "brdm2", "btr82a", "cm34",
+        cat("apc",
+                "2s38", "aav7a1", "aavc7c1", "ba10", "bmd4",   "bmpt72", "brdm2", "btr82a", "cm34",
                 "cv90", "m1126", "m1128", "m113", "m1296", "zbd04a", "zbd05", "zbl08", "zlt11", "zsl10", "ztd05"
                 );
         cat("aa", "buk_m3",
-                "625e", "akm", "buk_m3", "flarakpz1", "l1a2", "tunguska", "zsu234"
+                "625e", "akm", "buk_m3", "flarakpz1", "l1a2", "tunguska", "zsu_23_4"
                 );
         cat("airplane", "j20",
                 "ac130", "av8b", "camel", "f14", "f15e", "f16c", "f4u", "fa18e", "ik_fightcat", "ik_locust", "j10",
