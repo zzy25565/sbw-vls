@@ -1,6 +1,6 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0e**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0f**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
 > 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
@@ -141,6 +141,25 @@ new OBB(Vector3d(0,0,0), vec3ToVector3d(this.size), new Quaterniond(), part)   /
 
 > 观察（未改）：`is2` 与 `tiger` 各有一个轮骨骼（`Wheel15` / `Wheel8`）挂在根层、不在 `base` 之下。
 > 它对整车移动无影响（根骨骼同样随实体变换），只在车体被单独动画时才会看出来。
+
+## 1.0.0f：删除 spacebag，修复飞行器审查发现的缺陷
+
+飞行器模型审查（`SBW/review/飞行器模型审查报告_20261029.md`）发现 `spacebag`：
+模型只有 1.1×1.8×0.9 块，但 9 个 OBB 铺开成 8.25×3.94×14.75 块——碰撞盒与模型严重不符。
+已确认删除：
+
+| 项 | 动作 |
+|---|---|
+| `MergedVehicles.SIZES` | 删除注册条目（实体不再生成） |
+| `CreativeTabs` | 移除创造模式标签页引用 |
+| `data` / 模型索引 / geo / 独占贴图 | 从 jar 中移除 |
+| lang | 移除 3 条条目（zh 2 条 + en 1 条） |
+
+同时复核了 `su24m`：Blender 渲染确认机身/机头/座舱/机翼/尾翼完整连续，
+之前标记的"离群部件"实为前半段机身（载具中枢在尾部，机头离中枢 20 格是正常几何）——**非缺陷，未修改**。
+`ah1f` 的旋翼问题（桨叶沿机身纵轴排布）已用 Blender 渲染确认，待处理。
+
+审查脚本：`SBW/review/audit_aircraft_v2.py`（43 台飞行器全检）。
 
 ## 版本号规则
 

@@ -139,8 +139,7 @@ public final class MergedVehicles {
         SIZES.put("sd905", new float[]{2.25f, 5.56f, 11.31f});
         SIZES.put("shield", new float[]{1.0f, 1.0f, 1.0f});
         SIZES.put("silverhand_mk_iv", new float[]{3.89f, 2.84f, 8.5f});
-        SIZES.put("spacebag", new float[]{4.12f, 4.72f, 17.0f});
-        SIZES.put("spg9", new float[]{1.0f, 1.0f, 2.56f});
+                SIZES.put("spg9", new float[]{1.0f, 1.0f, 2.56f});
         SIZES.put("strv103", new float[]{3.59f, 1.39f, 6.66f});
         SIZES.put("su24m", new float[]{7.5f, 2.75f, 15.0f});
         SIZES.put("sx1", new float[]{2.53f, 1.25f, 8.62f});

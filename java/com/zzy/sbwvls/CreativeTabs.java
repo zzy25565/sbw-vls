@@ -50,7 +50,7 @@ public final class CreativeTabs {
         cat("airplane", "j20",
                 "ac130", "av8b", "camel", "f14", "f15e", "f16c", "f4u", "fa18e", "ik_fightcat", "ik_locust", "j10",
                 "j10c", "j11", "j15t", "j16", "j20", "j20vtol", "j35", "j8", "jas39e", "jf17", "q5", "refale",
-                "spacebag", "su24m", "syy651", "t77h", "tjgc"
+                "su24m", "syy651", "t77h", "tjgc"
                 );
         cat("helicopter", "z20",
                 "ah1f", "ah64", "ec665", "ka50", "mi24p", "mi24v", "nh90", "sd905", "test_ship", "uh144", "uh60",
