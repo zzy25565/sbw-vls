@@ -1,6 +1,6 @@
 # SBW VLS 载具包（zzy-vehicles）
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0i**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0j**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
 > 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
@@ -232,6 +232,32 @@ ashvehicle 用**扁平资产布局**（`assets/ashvehicle/geo/<id>.geo.json` + `
 
 > 注：`buk_radar` / `s400_launcher` / `s400_radar` / `vls` 四台缺 `textures/bedrock/vehicle/*.png`
 > 属既有情况——它们走 MeshAsset 自己的贴图路径，不依赖标准路径。
+
+## 1.0.0j：删除二战坦克（20 台）
+
+按史实（1939–1945 服役）删除，载具 310 → **290**，Tank 71 → **51**：
+
+| 国家 | 删除的载具 |
+|---|---|
+| 德国 | `tiger`、`panzer4`、`maus` |
+| 苏联 | `is2`、`kv1`、`kv2`、`t3476`、`t3485`、`t26b` |
+| 美国 | `m3stuart`、`m4a2`、`m4a2_105`、`pershing`、`lvt` |
+| 英国 | `churchill_vii`、`comet` |
+| 日本 | `type97`、`type97q`、`type3`、`type100` |
+
+每台删除 5 处：`SIZES` 注册、`CreativeTabs` 分类引用、`data` 定义、模型索引、geo 与贴图。
+
+### 刻意保留的（避免误删）
+
+| 载具 | 保留原因 |
+|---|---|
+| `markv` | **一战**（Mark V，1917），不是二战 |
+| `pak40` | 二战年份，但是牵引反坦克炮（`Defense` 类），不是坦克 |
+| `dshk` / `m2` | 二战年份的重机枪（`Defense` 类） |
+| `strv103` / `ztz59a` / `t54` 系 | 冷战及以后 |
+| `cyborg_tank` / `darkbear` / `rail_tank` / `silverhand_mk_iv` / `m808` | 虚构或科幻 |
+
+若这些也要清，告诉我具体名单即可。
 
 ## 版本号规则
 
