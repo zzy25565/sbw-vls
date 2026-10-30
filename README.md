@@ -6,7 +6,11 @@
 > 打包好的整合包请到 [Releases](https://github.com/zzy25565/sbw-vls/releases/latest) 下载。
 
 
-Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **185 台**载具定义（180 台合并载具 + 5 台高精平台）。版本 **1.0.0j**。
+Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当前收录 **281 份**载具定义，含 **60 台**飞行器。版本 **1.0.0k**。
+
+**1.0.0k 模型修复**：移除现存 9 项二战平台；修复 Mi-17 朝向、Huey 火箭版灰贴图及 Buk-M3 注册错误。F-15E、F/A-18E、J-16、JAS 39E、Su-24M 的前机身在 Blender 5.2.2 LTS 中重新生成连续平滑外壳，恢复机头并匹配原涂装主色，J-16 座舱单独保留透明区域。其余部件、原始 PNG、动画骨骼及载具数据保留。提供可编辑 `.blend` 源文件和转换后模型，详见 [模型修复与复现说明](docs/二战模型清理_1.0.0k.md)。
+
+本次游戏复查覆盖 60 台飞行器的 300 张修复前近景，五款平滑后的飞机另有 25 张同角度复验截图；Mi-17 朝向也已单独复验。动态挂架适配仍在开发，**不包含在此模型修复版本中**。
 
 > **1.0.0b 起单命名空间**：原先的 `sbw_vls` 资源命名空间已并入 `zzyvehicles`，
 > 一个 jar、一个实体注册表、一套资源目录。旧包里 `assets/sbw_vls` 与 `data/sbw_vls` 不再存在。
@@ -26,16 +30,16 @@ Superb Warfare 的自定义载具集合（Minecraft 1.21.1 / NeoForge）。当�
 java/                35 个 Java 源文件（实体、渲染器、资产加载）
 resources/
 ├── pack.mcmeta
-├── data/zzyvehicles/sbw/vehicles/    185 个载具定义 JSON
+├── data/zzyvehicles/sbw/vehicles/    281 个载具定义 JSON
 └── assets/zzyvehicles/models/bedrock/vehicle/
-    └── {is2,tiger,m4a2,type97q,m808}.geo.json   5 台重划分骨骼的模型
+    └── m808.geo.json   保留的重划分骨骼模型
 ```
 
 > **美术资源不在本仓库**：`assets/` 下的几何（`.geo.json`）与贴图（`.png`）属于游戏衍生资源，未随仓库分发。构建时需自行放入。
 
 ## 载具定义格式
 
-数据驱动，文件名即载具 ID（`iris_slm.json` → `sbw_vls:iris_slm`）。字段沿用上游 SBW 的载具 schema：
+数据驱动，文件名即载具 ID（`iris_slm.json` → `zzyvehicles:iris_slm`）。字段沿用上游 SBW 的载具 schema：
 
 `MaxHealth` / `MaxEnergy` / `OBB` / `Seats` / `Weapons` / `EngineType` / `EngineInfo` / `TurretPos` 等。
 
@@ -308,3 +312,9 @@ ashvehicle 用**扁平资产布局**（`assets/ashvehicle/geo/<id>.geo.json` + `
 | 运行依赖 | Superb Warfare (GPL-3.0) | 必需 |
 | **必需** | [sbw-radar](https://github.com/zzy25565/sbw-radar) | 防空载具的雷达 HUD、TWS 锁定与近炸引信均由该模组提供；缺失时可生成但无法锁定/引导 |
 | 可选搭配 | [sbw-defense](https://github.com/zzy25565/sbw-defense) | 载具的 ERA / APS 数据需要该模组才有实际效果 |
+
+## 1.0.0k：清理二战飞机与载具
+
+新增移除 9 项平台及完整模型资源；原先 20 台二战坦克不回流。修复 Huey 火箭版灰色占位贴图，以及 Buk-M3 空实体渲染注册导致的启动问题。现有 281 份载具定义、60 台飞行器。
+
+详见 [清理与模型检查报告](docs/二战模型清理_1.0.0k.md) 和 	ools/removed_ww2.json。动态挂架正在单独校准与验证，本版本尚不包含该功能。

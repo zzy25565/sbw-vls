@@ -1,0 +1,6 @@
+{
+  "mi17": {
+    "yaw": 180,
+    "reason": "In-game yaw=0 front/rear screenshots show the tail facing +Z, while pilot seats (+2.56 Z) and tail collision boxes (-12.8 Z) use forward +Z. Rotate the complete visual hierarchy around its origin, preserving native flight/seat/OBB coordinates."
+  }
+}

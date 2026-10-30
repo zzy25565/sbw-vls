@@ -1,0 +1,24 @@
+{
+  "current": {
+    "f4u": "F4U Corsair，二战舰载战斗机",
+    "ba10": "BA-10，二战装甲车",
+    "lcm": "模型为早期 LCM 登陆艇，二战登陆载具",
+    "pak40": "PaK 40，二战牵引反坦克炮",
+    "empl_zis3": "ZiS-3 M1942，二战牵引野战炮阵地",
+    "dshk": "独立 DShK 1938 系列机枪阵地",
+    "empl_dshk": "独立 DShK 1938 系列机枪阵地的另一份模型",
+    "m2": "独立 Browning M2 系列机枪阵地",
+    "empl_m2": "独立 Browning M2 系列机枪阵地的另一份模型"
+  },
+  "previously_removed": ["tiger", "panzer4", "maus", "is2", "kv1", "kv2", "t3476", "t3485", "t26b", "m3stuart", "m4a2", "m4a2_105", "pershing", "lvt", "churchill_vii", "comet", "type97", "type97q", "type3", "type100"],
+  "keep": "按具体平台判断；一战 Camel / Mark V、战后 MG3、战后现代车辆和科幻载具保留。现代载具搭载 M2 或 DShK 不使整台现代载具成为二战平台。只清理 VLS 包及其权威源码副本，不改原始上游备份。",
+  "references": [
+    "https://www.si.edu/object/nasm_A19610124000",
+    "https://www.nationalww2museum.org/war/articles/louisiana-landing-craft-higgins-boat-d-day",
+    "https://www.panssarimuseo.fi/fi/museo/toiminta",
+    "https://ditsong.org.za/en/76-2mm-divisional-field-gun-model-1942-ussr-and-the-peoples-republic-of-china/",
+    "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196038/dshk-193846-heavy-machine-gun/",
+    "https://api.army.mil/e2/c/downloads/346439.pdf",
+    "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/ausruestung-bewaffnung/mg3"
+  ]
+}

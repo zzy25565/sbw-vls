@@ -23,6 +23,11 @@ public final class VlsEntities {
     @SubscribeEvent
     public static void onRegister(RegisterEvent event) {
         event.register(Registries.ENTITY_TYPE, helper -> {
+            BUK_M3 = EntityType.Builder
+                    .<cn.zzy.vehicles.entity.BukM3Entity>of(cn.zzy.vehicles.entity.BukM3Entity::new, MobCategory.MISC)
+                    .sized(3.5f, 3.2f).clientTrackingRange(128).updateInterval(1)
+                    .build("zzyvehicles:buk_m3");
+            helper.register(ResourceLocation.fromNamespaceAndPath(SbwVlsMod.MODID, "buk_m3"), BUK_M3);
             VLS_TURRET = turret(helper, "vls_turret", 3.0f, 3.0f);
 
             VLS_CRUISE_12 = turret(helper, "vls_cruise_12", 3.0f, 3.0f);

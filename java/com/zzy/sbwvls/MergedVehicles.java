@@ -36,7 +36,6 @@ public final class MergedVehicles {
         SIZES.put("akm", new float[]{3.0f, 2.98f, 9.06f});
         SIZES.put("amx56", new float[]{3.46f, 1.91f, 7.7f});
         SIZES.put("av8b", new float[]{6.75f, 2.95f, 12.56f});
-        SIZES.put("ba10", new float[]{2.4f, 2.02f, 5.83f});
         SIZES.put("bkan1c", new float[]{3.57f, 1.7f, 8.99f});
         SIZES.put("bmd4", new float[]{3.69f, 1.89f, 5.94f});
         SIZES.put("bmpt72", new float[]{3.59f, 1.39f, 6.66f});
@@ -51,12 +50,10 @@ public final class MergedVehicles {
         SIZES.put("cv90", new float[]{3.69f, 5.26f, 7.30f});
         SIZES.put("cyborg_tank", new float[]{4.91f, 2.11f, 7.31f});
         SIZES.put("darkbear", new float[]{3.7f, 1.65f, 7.92f});
-        SIZES.put("dshk", new float[]{3.0f, 2.5f, 6.0f});
         SIZES.put("ec665", new float[]{2.72f, 3.61f, 20.91f});
         SIZES.put("f14", new float[]{6.66f, 2.83f, 16.0f});
         SIZES.put("f15e", new float[]{7.93f, 4.64f, 18.15f});
         SIZES.put("f16c", new float[]{8.59f, 5.5f, 14.59f});
-        SIZES.put("f4u", new float[]{4.88f, 3.03f, 8.34f});
         SIZES.put("fa18e", new float[]{10.13f, 4.24f, 16.55f});
         SIZES.put("fav_a", new float[]{2.53f, 1.25f, 8.62f});
         SIZES.put("flarakpz1", new float[]{3.0f, 1.8f, 6.23f});
@@ -82,7 +79,6 @@ public final class MergedVehicles {
         SIZES.put("ka50", new float[]{3.56f, 3.45f, 17.25f});
         SIZES.put("kozak5", new float[]{5.55f, 4.57f, 28.06f});
         SIZES.put("l1a2", new float[]{3.41f, 2.23f, 7.47f});
-        SIZES.put("lcm", new float[]{4.02f, 4.55f, 16.83f});
         SIZES.put("leopard2a4", new float[]{3.57f, 1.71f, 8.29f});
         SIZES.put("m10booker", new float[]{3.12f, 2.79f, 6.31f});
         SIZES.put("m1126", new float[]{2.36f, 1.83f, 6.15f});
@@ -98,7 +94,6 @@ public final class MergedVehicles {
         SIZES.put("m1a1hc", new float[]{3.7f, 1.65f, 7.92f});
         SIZES.put("m1a2sepv1", new float[]{3.57f, 1.79f, 8.87f});
         SIZES.put("m1a2sepv2", new float[]{3.57f, 1.79f, 10.0f});
-        SIZES.put("m2", new float[]{3.0f, 2.5f, 6.0f});
         SIZES.put("m270", new float[]{2.95f, 2.27f, 5.62f});
         SIZES.put("m274", new float[]{1.0f, 1.25f, 1.5f});
         SIZES.put("m274m", new float[]{1.0f, 1.25f, 1.5f});
@@ -115,7 +110,6 @@ public final class MergedVehicles {
         SIZES.put("npds114", new float[]{3.0f, 2.5f, 6.0f});
         SIZES.put("npds514", new float[]{3.0f, 2.5f, 6.0f});
         SIZES.put("npds810", new float[]{3.0f, 2.5f, 6.0f});
-        SIZES.put("pak40", new float[]{2.19f, 1.22f, 1.0f});
         SIZES.put("project640", new float[]{3.5f, 1.48f, 8.53f});
         SIZES.put("pzbjy", new float[]{5.06f, 1.91f, 11.72f});
         SIZES.put("q5", new float[]{9.06f, 3.91f, 16.12f});
@@ -204,13 +198,10 @@ public final class MergedVehicles {
         SIZES.put("d30", new float[]{6.25f, 5.01f, 10.45f});
         SIZES.put("dpv_m240", new float[]{6.59f, 4.81f, 5.39f});
         SIZES.put("empl_ags17", new float[]{0.93f, 0.97f, 1.82f});
-        SIZES.put("empl_dshk", new float[]{0.81f, 1.65f, 2.87f});
         SIZES.put("empl_kornet", new float[]{1.71f, 2.22f, 1.47f});
-        SIZES.put("empl_m2", new float[]{1.56f, 3.65f, 3.00f});
         SIZES.put("empl_mg3", new float[]{0.99f, 1.04f, 1.88f});
         SIZES.put("empl_mk19", new float[]{5.80f, 2.02f, 5.45f});
         SIZES.put("empl_tow", new float[]{2.04f, 1.88f, 1.62f});
-        SIZES.put("empl_zis3", new float[]{3.68f, 1.56f, 6.34f});
         SIZES.put("fmtv", new float[]{12.62f, 7.98f, 13.01f});
         SIZES.put("gaz_tigr", new float[]{3.75f, 5.06f, 7.91f});
         SIZES.put("gaz_tigr_gl", new float[]{3.00f, 4.05f, 6.11f});
