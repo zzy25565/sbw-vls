@@ -6,8 +6,8 @@ import bpy,json,zipfile,sys,math,hashlib
 from pathlib import Path
 from mathutils import Vector,Matrix,Euler
 args=sys.argv[sys.argv.index('--')+1:];ROOT=Path(args[0]);vid=args[1]
-settings=json.loads((ROOT/'local/blender-settings.json').read_text())[vid]
-rule=json.loads((ROOT/'tools/model_repairs.json').read_text())[vid][0]
+settings=json.loads((ROOT/'local/blender-settings.json').read_text(encoding='utf-8'))[vid]
+rule=json.loads((ROOT/'tools/model_repairs.json').read_text(encoding='utf-8'))[vid][0]
 with zipfile.ZipFile(ROOT/'local/input-1.0.0j.jar') as z:doc=json.loads(z.read(f'assets/zzyvehicles/models/bedrock/vehicle/{vid}.geo.json'))
 g=doc['minecraft:geometry'][0];bone=next(b for b in g['bones'] if b['name']==rule['bone']);selected=set(rule['cubes'])
 bpy.ops.wm.read_factory_settings(use_empty=True)

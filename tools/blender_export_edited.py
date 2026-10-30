@@ -7,7 +7,7 @@ from pathlib import Path
 args=sys.argv[sys.argv.index('--')+1:];root=Path(args[0]);vid=args[1]
 bpy.ops.wm.open_mainfile(filepath=str(root/'local/blender-repairs'/f'{vid}.blend'))
 obj=bpy.data.objects[vid+'_smooth_skin'];deps=bpy.context.evaluated_depsgraph_get();evaluated=obj.evaluated_get(deps);mesh=evaluated.to_mesh(preserve_all_data_layers=True,depsgraph=deps)
-rule=json.loads((root/'tools/model_repairs.json').read_text())[vid][0]
+rule=json.loads((root/'tools/model_repairs.json').read_text(encoding='utf-8'))[vid][0]
 with zipfile.ZipFile(root/'local/input-1.0.0j.jar') as z:doc=json.loads(z.read(f'assets/zzyvehicles/models/bedrock/vehicle/{vid}.geo.json'))
 bones=doc['minecraft:geometry'][0]['bones'];byname={b['name']:b for b in bones};bone=byname[rule['bone']];at=bone
 while at:

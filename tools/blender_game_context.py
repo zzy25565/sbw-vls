@@ -11,7 +11,7 @@ skin=bpy.data.objects[vid+'_smooth_skin']
 glass=skin.data.materials[1];gt=glass.node_tree.nodes.new('ShaderNodeTexImage');gt.image=next(i for i in bpy.data.images if i.name.endswith('.png'));gt.interpolation='Closest';gb=glass.node_tree.nodes.get('Principled BSDF');glass.node_tree.links.new(gt.outputs['Color'],gb.inputs['Base Color']);glass.node_tree.links.new(gt.outputs['Alpha'],gb.inputs['Alpha'])
 for obj in list(bpy.data.objects):
  if obj!=skin:bpy.data.objects.remove(obj,do_unlink=True)
-context=json.loads((work/f'{vid}-game-context.json').read_text());p=context['positions'];uvs=context['uvs']
+context=json.loads((work/f'{vid}-game-context.json').read_text(encoding='utf-8'));p=context['positions'];uvs=context['uvs']
 verts=[p[k:k+3] for k in range(0,len(p),3)];faces=[[k+3,k+2,k+1,k] for k in range(0,len(verts),4)]
 mesh=bpy.data.meshes.new('Unmodified original parts in actual game pose');mesh.from_pydata(verts,[],faces);mesh.update()
 ref=bpy.data.objects.new('REFERENCE_actual_game_pose_do_not_export',mesh);bpy.context.collection.objects.link(ref)

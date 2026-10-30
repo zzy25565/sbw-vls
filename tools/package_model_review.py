@@ -2,8 +2,8 @@
 from pathlib import Path
 import zipfile,json,hashlib,shutil
 root=Path(__file__).resolve().parents[1];out=root.parent/'交付/VLS_1.0.0k_模型修复';out.mkdir(parents=True,exist_ok=True)
-ids=list(json.loads((root/'tools/model_repairs.json').read_text()));work=root/'local/blender-repairs';shots=root.parent/'sbw_loadout/run/screenshots'
-report=json.loads((root/'local/release-checks.json').read_text());jar=Path(report['output']);assert hashlib.file_digest(jar.open('rb'),'sha256').hexdigest()==report['sha256'];shutil.copy2(jar,out/jar.name)
+ids=list(json.loads((root/'tools/model_repairs.json').read_text(encoding='utf-8')));work=root/'local/blender-repairs';shots=root.parent/'sbw_loadout/run/screenshots'
+report=json.loads((root/'local/release-checks.json').read_text(encoding='utf-8'));jar=Path(report['output']);assert hashlib.file_digest(jar.open('rb'),'sha256').hexdigest()==report['sha256'];shutil.copy2(jar,out/jar.name)
 readme='''VLS 1.0.0k Blender 模型修复源文件（2026-10-30）
 
 Blender 5.2.2 LTS。五个 .blend 均已打包原贴图，双击可独立打开。
