@@ -22,7 +22,7 @@ blender_smooth_airframes.py 则是从原包重建，会替换工作文件，勿�
 
 审查压缩包中的游戏截图与 Blender 灯光预览分目录存放；Blender 预览不作为游戏截图。
 '''
-with zipfile.ZipFile(out/'VLS_五款飞机_Blender源文件_1.0.0k.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+with zipfile.ZipFile(out/'vls-aircraft-blender-sources-1.0.0k.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  z.writestr('README_使用说明.txt',readme)
  for vid in ids:
   z.write(work/f'{vid}.blend',f'blender/{vid}.blend');z.write(root/'resources/assets/zzyvehicles/models/bedrock/vehicle'/f'{vid}.geo.json',f'converted/{vid}.geo.json')
@@ -32,7 +32,7 @@ with zipfile.ZipFile(out/'VLS_五款飞机_Blender源文件_1.0.0k.zip','w',zipf
  for p in (root/'tools').glob('*.json'):z.write(p,'scripts/'+p.name)
  z.write(root/'local/blender-settings.json','reports/blender-settings.json')
  z.write(root/'docs/二战模型清理_1.0.0k.md','模型审查与复现说明.md')
-with zipfile.ZipFile(out/'VLS_真实游戏截图与审查_1.0.0k.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+with zipfile.ZipFile(out/'vls-model-review-1.0.0k.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for p in sorted(shots.glob('inspect_*.png')):z.write(p,'游戏初查_60机300图/'+p.name)
  for p in sorted(shots.glob('blenderfinal_*.png')):z.write(p,'游戏最终复验_5机25图/'+p.name)
  for p in sorted(shots.glob('fixed_mi17_*.png')):z.write(p,'Mi17朝向复验/'+p.name)
