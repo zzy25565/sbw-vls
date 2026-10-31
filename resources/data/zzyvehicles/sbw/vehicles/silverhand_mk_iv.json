@@ -340,7 +340,7 @@
  ],
  "Weapons": {
   "Cannon": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/aphe.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/aphe.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "Projectile": "superbwarfare:small_cannon_shell",
@@ -369,7 +369,7 @@
     {
      "Ammo": "superbwarfare:medium_shell_he",
      "Override": {
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/he.png",
       "IsArmorPiercingProjectile": false,
       "IsHighExplosiveProjectile": true,
       "Velocity": 13.3333,
@@ -407,7 +407,7 @@
    }
   },
   "MachineGun": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/aphe.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/aphe.png",
    "BoundBonesYaw": [
     "move_hullGunYaw"
    ],
@@ -442,7 +442,7 @@
     {
      "Ammo": "superbwarfare:large_shell_he",
      "Override": {
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/he.png",
       "IsArmorPiercingProjectile": false,
       "IsHighExplosiveProjectile": true,
       "Velocity": 13.3333,
@@ -565,7 +565,7 @@
   2.6,
   5.8
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/silverhand_mk_iv_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/silverhand_mk_iv_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/blue_land.png",
  "Type": "Tank",
  "CollisionLevel": {

@@ -526,7 +526,7 @@
   "ExplosionDamage": 120,
   "ExplosionRadius": 7
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/m1126_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/m1126_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_land.png",
  "Type": "APC",
  "CollisionLevel": {

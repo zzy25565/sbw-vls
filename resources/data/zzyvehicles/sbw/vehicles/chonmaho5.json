@@ -466,7 +466,7 @@
   2.6,
   6.5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/chonmaho5_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/chonmaho5_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/red_land.png",
  "VehicleContainerType": "Medium",
  "Type": "Tank",

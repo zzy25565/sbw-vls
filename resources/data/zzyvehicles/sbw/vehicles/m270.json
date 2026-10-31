@@ -345,7 +345,7 @@
   1,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/m270_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/m270_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_land.png",
  "Type": "APC",
  "EngineSound": "dragonrise_reforge:m2a3_engine_loop",

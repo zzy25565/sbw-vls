@@ -230,7 +230,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 40,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
    "Name": "dragonrise_reforge:dtc10125",
    "AmmoType": [
@@ -271,7 +271,7 @@
        "Change": "dragonrise_reforge:change_weapon"
       },
       "SoundRadius": 12,
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_gp_125.png"
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_gp_125.png"
      }
     }
    ],
@@ -302,7 +302,7 @@
    }
   },
   "MachineGun": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/gun_5_8mm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/gun_5_8mm.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Spread": 0.25,
@@ -491,7 +491,7 @@
   1.5,
   4
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/vt4b_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/vt4b_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_land.png",
  "Type": "Tank",
  "CollisionLevel": {

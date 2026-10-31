@@ -580,7 +580,7 @@
    "SoundRadius": 8
   },
   "Missile": {
-   "Icon": "halovecs:textures/overlay/vehicle/weapon/icons/a_2.png",
+   "Icon": "zzyvehicles:restored/halovecs/textures/overlay/vehicle/weapon/icons/a_2.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -689,7 +689,7 @@
    "SoundRadius": 8
   },
   "Cannon": {
-   "Icon": "halovecs:textures/overlay/vehicle/weapon/icons/cannon_70mm.png",
+   "Icon": "zzyvehicles:restored/halovecs/textures/overlay/vehicle/weapon/icons/cannon_70mm.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "AmmoType": "superbwarfare:small_shell_ap",
@@ -771,7 +771,7 @@
   "ExplosionDamage": 800,
   "ExplosionRadius": 32
  },
- "VehicleIcon": "halovecs:textures/vehicle_icon/t77h_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/halovecs/textures/vehicle_icon/t77h_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/aircraft.png",
  "Type": "Airplane",
  "EngineType": "Helicopter",

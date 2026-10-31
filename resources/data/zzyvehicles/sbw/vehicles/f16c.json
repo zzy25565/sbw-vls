@@ -256,7 +256,7 @@
   },
   "Bomb": {
    "AmmoType": "superbwarfare:medium_aerial_bomb",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/500kg.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/500kg.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Semi",
@@ -400,7 +400,7 @@
   },
   "Missile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aim9.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aim9.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -457,7 +457,7 @@
    "SoundRadius": 8
   },
   "Missile2": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aim120.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aim120.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -581,7 +581,7 @@
   "ExplosionRadius": 16,
   "CrashPassengers": true
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/f16c_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/f16c_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_aircraft.png",
  "Type": "Airplane",
  "EngineType": "Aircraft",

@@ -100,7 +100,7 @@
   1,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/motuo_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/motuo_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/civilian.png",
  "Type": "Car",
  "EngineSound": "dragonrise_reforge:wheel_loop1",

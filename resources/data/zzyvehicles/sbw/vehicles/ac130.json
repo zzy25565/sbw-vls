@@ -303,7 +303,7 @@
    }
   },
   "Cannon105": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/aphe.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/aphe.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "Projectile": "superbwarfare:cannon_shell",
@@ -333,7 +333,7 @@
     {
      "Ammo": "superbwarfare:large_shell_he",
      "Override": {
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/he.png",
       "IsArmorPiercingProjectile": false,
       "IsHighExplosiveProjectile": true,
       "Velocity": 12,
@@ -368,7 +368,7 @@
    }
   },
   "Cannon40": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/grenade.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/grenade.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Projectile": "superbwarfare:small_cannon_shell",
@@ -458,7 +458,7 @@
    "SoundRadius": 25
   },
   "SeekMissile": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_dyh.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_dyh.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -553,7 +553,7 @@
   }
  },
  "HUDColor": "0xFFC700",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ac130_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/ac130_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_aircraft.png",
  "Type": "Helicopter",
  "HudType": "@Helicopter",

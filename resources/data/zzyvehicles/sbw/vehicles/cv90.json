@@ -226,7 +226,7 @@
    "Name": "weapon.vvp.30mm_cannon",
    "SoundRadius": 24,
    "AmmoType": [
-    "vvp:item_30mm",
+    "superbwarfare:small_shell_ap",
     {
      "Ammo": "superbwarfare:small_shell_ap",
      "Override": {

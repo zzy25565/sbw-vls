@@ -364,7 +364,7 @@
   },
   "Missile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aim9.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aim9.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -439,7 +439,7 @@
    }
   },
   "Missile2": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aim120.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aim120.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -594,7 +594,7 @@
    ]
   },
   "Missile3": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aim120.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aim120.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -701,7 +701,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/gb_500.png",
+      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/mk_82.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -754,7 +754,7 @@
    }
   },
   "Missile4": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aim120.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aim120.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -864,7 +864,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/gb_500.png",
+      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/mk_82.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -961,7 +961,7 @@
   "ExplosionRadius": 16,
   "CrashPassengers": true
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/fa18e_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/fa18e_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_aircraft.png",
  "Type": "Airplane",
  "EngineType": "Aircraft",

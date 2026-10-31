@@ -152,7 +152,7 @@
   "ExplosionDamage": 100,
   "ExplosionRadius": 7
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/npds810_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/npds810_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/defense.png",
  "Type": "Defense",
  "HudType": "@Artillery"

@@ -23,6 +23,9 @@ public final class HighDetailVehicleRenderer<T extends PlatformVehicle> extends 
     static float radarAngleDegrees(int ticks, float partial) { return ((ticks % 200) + partial) * 1.8f; }
     @Override public ResourceLocation getTextureLocation(T entity) { return ResourceLocation.fromNamespaceAndPath("zzyvehicles", "textures/vehicles/" + entity.modelId() + "/material_00.png"); }
     @Override public void render(T entity, float yaw, float partial, PoseStack stack, MultiBufferSource buffers, int light) {
+        var player=net.minecraft.client.Minecraft.getInstance().player;
+        if(player!=null && player.getVehicle()==entity
+                && com.atsuishio.superbwarfare.event.ClientEventHandler.zoomVehicle) return;
         MeshAsset asset = ClientAssets.get(entity.modelId()); if (asset == null) return;
         ChassisPose pose = poses.computeIfAbsent(entity, key -> new ChassisPose()); pose.update(entity, asset);
         stack.pushPose();

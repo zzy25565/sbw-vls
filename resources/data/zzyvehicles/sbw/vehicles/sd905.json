@@ -219,7 +219,7 @@
   },
   "Bomb": {
    "AmmoType": "superbwarfare:medium_aerial_bomb",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/500kg.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/500kg.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
@@ -368,7 +368,7 @@
   "CrashPassengers": true
  },
  "HUDColor": "0xFFC700",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/sd905_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/sd905_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/aircraft.png",
  "Type": "Helicopter",
  "HudType": "@Helicopter",

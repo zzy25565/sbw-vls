@@ -506,7 +506,7 @@
   },
   "Pylon1": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_pl10.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_pl10.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -581,7 +581,7 @@
    }
   },
   "Pylon2": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_pl12.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_pl12.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -659,7 +659,7 @@
    "SoundRadius": 8
   },
   "Pylon3": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_pl12.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_pl12.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -762,7 +762,7 @@
        "OnlyLockBlock": true
       },
       "CrosshairZooming": "@AirCraftNacelle",
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_yj88c.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_yj88c.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -837,7 +837,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/500kg.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/500kg.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -912,7 +912,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/ls_6.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/ls_6.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -988,7 +988,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/ls_6.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/ls_6.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1041,7 +1041,7 @@
    }
   },
   "Pylon4": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_pl15.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_pl15.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -1144,7 +1144,7 @@
        "OnlyLockBlock": true
       },
       "CrosshairZooming": "@AirCraftNacelle",
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_yj88c.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_yj88c.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1219,7 +1219,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/ls_6.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/ls_6.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1295,7 +1295,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/ls_6.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/ls_6.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1348,7 +1348,7 @@
    }
   },
   "Pylon6": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_pl15.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_pl15.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -1441,7 +1441,7 @@
        "OnlyLockBlock": true
       },
       "CrosshairZooming": "@AirCraftNacelle",
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_yj88c.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_yj88c.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1494,7 +1494,7 @@
    }
   },
   "Pylon5": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_pl15.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_pl15.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -1600,7 +1600,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/ls_6.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/ls_6.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1676,7 +1676,7 @@
         ]
        ]
       },
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/ls_6.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/ls_6.png",
       "ProjectileDummyInfo": {
        "Offset": [
         0,
@@ -1773,7 +1773,7 @@
   "ExplosionRadius": 16,
   "CrashPassengers": true
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/j16_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/j16_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_aircraft.png",
  "Type": "Airplane",
  "EngineType": "Aircraft",

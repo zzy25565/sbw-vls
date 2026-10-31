@@ -156,7 +156,7 @@
  ],
  "Weapons": {
   "Cannon": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/hyr0/ap_shell.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/hyr0/ap_shell.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "Projectile": "superbwarfare:cannon_shell",
@@ -177,7 +177,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 140,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
    "Name": "dragonrise_reforge:hyr0ap",
    "AmmoType": [
@@ -185,7 +185,7 @@
     {
      "Ammo": "superbwarfare:large_shell_he",
      "Override": {
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/hyr0/he_shell.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/hyr0/he_shell.png",
       "IsArmorPiercingProjectile": false,
       "IsHighExplosiveProjectile": true,
       "Velocity": 16.6667,
@@ -238,7 +238,7 @@
    "RecoilForce": 0.62,
    "ShootAnimationTime": 3,
    "Spread": 0.5,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0xFFC700",
    "Name": "dragonrise_reforge:hyr020",
    "SoundInfo": {
@@ -250,7 +250,7 @@
    },
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:small_shell_ap",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/hyr0/cannon_20mm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/hyr0/cannon_20mm.png",
    "ShootPos": {
     "Transform": "Barrel",
     "Positions": [
@@ -426,7 +426,7 @@
   1.5,
   4
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/hyr0_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/hyr0_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/land.png",
  "Type": "Tank",
  "CollisionLevel": {

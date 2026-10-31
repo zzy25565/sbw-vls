@@ -277,7 +277,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 35,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/ru_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/ru_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
    "Name": "dragonrise_reforge:3BM60",
    "AmmoType": [
@@ -511,7 +511,7 @@
   1.5,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/2s25m_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/2s25m_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/ru_land.png",
  "Type": "Tank",
  "CollisionLevel": {

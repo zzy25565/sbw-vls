@@ -430,7 +430,7 @@
   1.5,
   4
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ztz59a_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/ztz59a_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_land.png",
  "Type": "Tank",
  "CollisionLevel": {

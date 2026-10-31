@@ -225,7 +225,7 @@
      "Barrel"
     ]
    },
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/common_gun_little.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/common_gun_little.png",
    "Name": "dragonrise_reforge:54T",
    "SoundInfo": {
     "Fire1P": "dragonrise_reforge:qjz89_fire_1p",
@@ -254,7 +254,7 @@
    "RecoilForce": 0.05,
    "ShootAnimationTime": 3,
    "Spread": 1.2,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/common_gun_little.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/common_gun_little.png",
    "CrosshairColor": "0xFFC700",
    "Name": "dragonrise_reforge:87",
    "SoundInfo": {
@@ -361,7 +361,7 @@
   "ExplosionDamage": 160,
   "ExplosionRadius": 8
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/csk181_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/csk181_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_land.png",
  "Type": "Car",
  "CollisionLevel": {

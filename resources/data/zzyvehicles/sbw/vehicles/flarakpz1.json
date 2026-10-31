@@ -130,7 +130,7 @@
  "Weapons": {
   "AAMissile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/aam.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/aam.png",
    "DefaultZoom": 4,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -244,7 +244,7 @@
   "ExplosionDamage": 160,
   "ExplosionRadius": 8
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/flarakpz1_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/flarakpz1_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/gm_land.png",
  "Type": "APC",
  "CollisionLevel": {

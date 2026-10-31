@@ -298,7 +298,7 @@
    }
   },
   "MachineGun": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/gun_5_8mm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/gun_5_8mm.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Spread": 0.25,
@@ -389,7 +389,7 @@
     "Change": "dragonrise_reforge:change_weapon"
    },
    "SoundRadius": 12,
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_hj-73c.png"
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_hj-73c.png"
   }
  },
  "EngineType": "Track",
@@ -468,7 +468,7 @@
   "ExplosionDamage": 160,
   "ExplosionRadius": 8
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/zbd05_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/zbd05_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_land.png",
  "Type": "APC",
  "CollisionLevel": {

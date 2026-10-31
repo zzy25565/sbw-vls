@@ -158,7 +158,7 @@
   1,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/toyota_seiki_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/toyota_seiki_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/civilian.png",
  "Type": "Car",
  "EngineSound": "superbwarfare:lav_150_engine",

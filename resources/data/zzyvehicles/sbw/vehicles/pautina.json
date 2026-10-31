@@ -244,7 +244,7 @@
   "ExplosionRadius": 4.4,
   "ExplodeBlocks": false
  },
- "VehicleIcon": "superbwarfare:textures/vehicle_icon/bmp2_icon.png",
+ "VehicleIcon": "superbwarfare:textures/vehicle_icon/bmp_2_icon.png",
  "Type": "APC",
  "CollisionLevel": {
   "Level": 3,

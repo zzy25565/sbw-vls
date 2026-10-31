@@ -113,7 +113,7 @@
  "EngineType": "Fixed",
  "HasLowHealthWarning": false,
  "SelfHurtPercent": 0,
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/spg9_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/spg9_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/defense.png",
  "Type": "Defense",
  "OBB": [

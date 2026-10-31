@@ -259,7 +259,7 @@
   1,
   5
  ],
- "VehicleIcon": "halovecs:textures/vehicle_icon/m808_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/halovecs/textures/vehicle_icon/m808_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/land.png",
  "Type": "Tank",
  "CollisionLevel": {

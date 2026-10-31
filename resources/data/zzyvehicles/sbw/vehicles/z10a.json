@@ -217,7 +217,7 @@
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Projectile": "superbwarfare:small_cannon_shell",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/cannon_23mm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/cannon_23mm.png",
    "DefaultZoom": 3,
    "RPM": 400,
    "Velocity": 32.3333,
@@ -318,7 +318,7 @@
    "SoundRadius": 12
   },
   "@Missile": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_akd10.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_akd10.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "RPM": 12,
@@ -346,7 +346,7 @@
    "Magazine": 8,
    "Template": "@Missile",
    "AmmoType": "superbwarfare:medium_anti_ground_missile",
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/z10_missile_crosshair.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/z10_missile_crosshair.png",
    "ShootPos": {
     "Transform": "Vehicle",
     "ShootPositionForHud": [
@@ -423,7 +423,7 @@
      }
     }
    ],
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_ba11.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_ba11.png",
    "DefaultZoom": 3,
    "DefaultFireMode": "Semi",
    "Magazine": 4,
@@ -487,7 +487,7 @@
     "Locked": "superbwarfare:javelin_locked"
    },
    "CrosshairColor": "0xFFC700",
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/z10_missile_crosshair.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/z10_missile_crosshair.png",
    "SoundRadius": 8,
    "AvailableFireModes": [
     "Semi"
@@ -495,7 +495,7 @@
   },
   "DriverAAMissile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_ty90.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_ty90.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -624,7 +624,7 @@
   "CrashPassengers": true
  },
  "HUDColor": "0xFFC700",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/z10a_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/z10a_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_aircraft.png",
  "VehicleContainerType": "Small",
  "Type": "Helicopter",

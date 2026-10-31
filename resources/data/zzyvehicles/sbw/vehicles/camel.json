@@ -19,7 +19,7 @@
   -40,
   80
  ],
- "TurretControllerIndex": 1,
+ "TurretControllerIndex": 0,
  "OBB": [
   {
    "Part": "MainEngine",
@@ -244,7 +244,7 @@
   "ExplosionRadius": 16,
   "CrashPassengers": true
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/camel_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/camel_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/uk_aircraft.png",
  "Type": "Airplane",
  "EngineType": "Aircraft",

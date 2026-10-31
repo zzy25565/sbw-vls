@@ -529,7 +529,7 @@
   1.5,
   5
  ],
- "VehicleIcon": "snvx:textures/vehicle_icon/abrams_x_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/snvx/textures/vehicle_icon/abrams_x_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/land.png",
  "VehicleContainerType": "Medium",
  "Type": "Tank",

@@ -341,7 +341,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 40,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "#da2d2d",
    "Name": "dragonrise_reforge:of6",
    "AmmoType": [
@@ -422,7 +422,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 40,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "#da2d2d",
    "Name": "dragonrise_reforge:of6",
    "AmmoType": [
@@ -640,7 +640,7 @@
   1.5,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/markv_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/markv_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/uk_land.png",
  "Type": "Tank",
  "CollisionLevel": {

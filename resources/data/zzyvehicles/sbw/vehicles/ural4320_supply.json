@@ -522,7 +522,7 @@
  "EngineType": "Wheel",
  "EngineSound": "superbwarfare:lav_150_engine",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/ru_land.png",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ural4320_supply_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/ural4320_supply_icon.png",
  "VehicleContainerType": "Medium",
  "EngineInfo": {
   "Buoyancy": 0.052,
@@ -538,7 +538,7 @@
  },
  "Weapons": {
   "Cannon": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/cannon_23mm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/cannon_23mm.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Projectile": "superbwarfare:small_cannon_shell",

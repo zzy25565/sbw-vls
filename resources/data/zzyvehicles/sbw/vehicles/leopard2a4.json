@@ -444,7 +444,7 @@
   1.5,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/leopard2a4_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/leopard2a4_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/gm_land.png",
  "Type": "Tank",
  "CollisionLevel": {

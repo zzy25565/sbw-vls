@@ -225,7 +225,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 40,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/fr_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/fr_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
    "Name": "dragonrise_reforge:OFL_120_F1",
    "AmmoType": [
@@ -457,7 +457,7 @@
   1.5,
   4
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/amx56_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/amx56_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/fr_land.png",
  "Type": "Tank",
  "CollisionLevel": {

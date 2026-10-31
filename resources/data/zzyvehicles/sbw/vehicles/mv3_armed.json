@@ -463,7 +463,7 @@
   25
  ],
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_land.png",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/mv3_armed_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/mv3_armed_icon.png",
  "VehicleContainerType": "Medium",
  "EngineInfo": {
   "Buoyancy": 0.052,

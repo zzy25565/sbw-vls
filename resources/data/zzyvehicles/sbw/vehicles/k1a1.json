@@ -490,7 +490,7 @@
   1.5,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/k1a1_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/k1a1_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/kr_land.png",
  "Type": "Tank",
  "CollisionLevel": {

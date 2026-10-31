@@ -453,7 +453,7 @@
    ],
    "Spread": 0.02,
    "ShootAnimationTime": 40,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
    "Name": "dragonrise_reforge:dtc10125",
    "AmmoType": [
@@ -475,7 +475,7 @@
     {
      "Ammo": "superbwarfare:medium_anti_ground_missile",
      "Override": {
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_gp_125.png",
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_gp_125.png",
       "IsArmorPiercingProjectile": true,
       "Velocity": 10,
       "Damage": 600,
@@ -705,7 +705,7 @@
   1.5,
   5
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ztz96a_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/ztz96a_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_land.png",
  "Type": "Tank",
  "CollisionLevel": {

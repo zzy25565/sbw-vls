@@ -227,7 +227,7 @@
   },
   "Bomb": {
    "AmmoType": "superbwarfare:medium_aerial_bomb",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/500kg.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/500kg.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Semi",
@@ -301,7 +301,7 @@
      }
     }
    ],
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_aasm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_aasm.png",
    "DefaultZoom": 3,
    "DefaultFireMode": "Semi",
    "Magazine": 6,
@@ -387,7 +387,7 @@
   },
   "Missile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_r550.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_r550.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -504,7 +504,7 @@
   "ExplosionRadius": 16,
   "CrashPassengers": true
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/rafale_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/rafale_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/fr_aircraft.png",
  "Type": "Airplane",
  "EngineType": "Aircraft",

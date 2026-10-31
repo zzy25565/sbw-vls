@@ -19,6 +19,7 @@ out/
 .gradle/
 local/
 __pycache__/
+logs/
 
 # IDE
 .idea/

@@ -19,7 +19,7 @@
   -0.55,
   -0.051
  ],
- "TurretControllerIndex": 1,
+ "TurretControllerIndex": 0,
  "OBB": [
   {
    "Size": [
@@ -197,7 +197,7 @@
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
     "Change": "dragonrise_reforge:change_weapon"
    },
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/ru_heli_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/ru_heli_cannon_cross.png",
    "CrosshairColor": "0xFFC700",
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:small_shell_ap",
@@ -319,7 +319,7 @@
     "Change": "dragonrise_reforge:change_weapon"
    },
    "SoundRadius": 12,
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_9m127.png"
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_9m127.png"
   }
  },
  "EngineType": "Helicopter",
@@ -384,7 +384,7 @@
   "CrashPassengers": true
  },
  "HUDColor": "0xFFC700",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ka50_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/ka50_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/ru_aircraft.png",
  "Type": "Helicopter",
  "HudType": "@Helicopter",

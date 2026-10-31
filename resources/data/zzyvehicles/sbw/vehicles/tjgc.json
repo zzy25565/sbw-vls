@@ -183,7 +183,7 @@
  "HudType": "@Aircraft",
  "Weapons": {
   "Laser": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/laser.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/laser.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "Projectile": "ray",
@@ -247,7 +247,7 @@
   },
   "Rocket": {
    "AmmoType": "superbwarfare:small_rocket",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/rocket.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/rocket.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Semi",
@@ -552,7 +552,7 @@
   },
   "BigRocket": {
    "AmmoType": "superbwarfare:small_rocket",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/rocket.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/rocket.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Semi",
@@ -657,7 +657,7 @@
   },
   "Bomb": {
    "AmmoType": "superbwarfare:medium_aerial_bomb",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/nuke.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/nuke.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Semi",
@@ -709,7 +709,7 @@
    "SoundRadius": 8
   },
   "AAMissile": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/aam.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/aam.png",
    "DefaultZoom": 2,
    "Magazine": 10,
    "EmptyReloadTime": 120,
@@ -834,7 +834,7 @@
      }
     }
    ],
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/atgm.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/atgm.png",
    "DefaultZoom": 3,
    "DefaultFireMode": "Semi",
    "Magazine": 10,
@@ -961,7 +961,7 @@
      }
     }
    ],
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/tjgc/atgm2.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/tjgc/atgm2.png",
    "DefaultZoom": 3,
    "DefaultFireMode": "Semi",
    "Magazine": 5,
@@ -1101,7 +1101,7 @@
   "ExplosionRadius": 30,
   "CrashPassengers": true
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/tjgc_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/tjgc_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/aircraft.png",
  "Type": "Airplane",
  "EngineType": "Aircraft",

@@ -159,7 +159,7 @@
  ],
  "Weapons": {
   "Cannon": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/cyborg/fusion_battle_cannon.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/cyborg/fusion_battle_cannon.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "Projectile": "superbwarfare:cannon_shell",
@@ -180,7 +180,7 @@
    ],
    "Spread": 0.04,
    "ShootAnimationTime": 40,
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
    "Name": "dragonrise_reforge:fusion_battle_cannon_beam",
    "AmmoType": [
@@ -225,7 +225,7 @@
    }
   },
   "MachineGun": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/cyborg/coax_fusion_cycler.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/cyborg/coax_fusion_cycler.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Spread": 1.0,
@@ -267,7 +267,7 @@
    "SoundRadius": 16
   },
   "PassengerMachineGun": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/cyborg/heavy_fusion_repeater.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/cyborg/heavy_fusion_repeater.png",
    "DefaultFireMode": "Auto",
    "AvailableFireModes": "Auto",
    "Spread": 1.0,
@@ -416,7 +416,7 @@
   1.5,
   4
  ],
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/cyborg_tank_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/cyborg_tank_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/land.png",
  "Type": "Tank",
  "CollisionLevel": {

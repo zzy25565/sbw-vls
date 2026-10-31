@@ -260,7 +260,7 @@
      "Barrel"
     ]
    },
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/common_gun_little.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/common_gun_little.png",
    "Name": "dragonrise_reforge:m2hb",
    "SoundInfo": {
     "Fire1P": "dragonrise_reforge:m2_fire_1p",
@@ -351,7 +351,7 @@
   "ExplosionDamage": 160,
   "ExplosionRadius": 8
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/humvee_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/humvee_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_land.png",
  "Type": "Car",
  "CollisionLevel": {

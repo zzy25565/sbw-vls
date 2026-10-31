@@ -2,10 +2,16 @@
 from pathlib import Path
 import subprocess,json,zipfile,re,hashlib,sys
 ROOT=Path(__file__).resolve().parents[1]
-INPUT=ROOT/'local/input-1.0.0j.jar'
-assert hashlib.file_digest(INPUT.open('rb'),'sha256').hexdigest()=='be27945c2217c0b879f95cfb83c24b5bd379af674e0d4c13d25e1ed8ae8006f7', 'Unexpected base JAR'
-subprocess.run([sys.executable,str(ROOT/'tools/audit_blender_repairs.py')],check=True,capture_output=True)
-VERSION='1.0.0k'
+INPUT=ROOT/'local/input-1.0.0m.jar'
+assert hashlib.file_digest(INPUT.open('rb'),'sha256').hexdigest()=='ddd44454938afb2eaede50ef6ca236056cf7dc3365fddeba07029900f77a0a7a', 'Unexpected base JAR'
+# The five Blender repairs already shipped in the pinned M input. Only require
+# the older editable conversion inputs when those aircraft are changed again.
+airframe_rules=json.loads((ROOT/'tools/model_repairs.json').read_text(encoding='utf-8'))
+with zipfile.ZipFile(INPUT) as base:
+    airframes_preserved=all((ROOT/'resources'/f'assets/zzyvehicles/models/bedrock/vehicle/{vid}.geo.json').read_bytes()==base.read(f'assets/zzyvehicles/models/bedrock/vehicle/{vid}.geo.json') for vid in airframe_rules)
+if not airframes_preserved:
+    subprocess.run([sys.executable,str(ROOT/'tools/audit_blender_repairs.py')],check=True,capture_output=True)
+VERSION='1.0.0n'
 OUT=ROOT/'local'/('zzy-vehicles-'+VERSION+'.jar')
 manifest=json.loads((ROOT/'tools/removed_ww2.json').read_text(encoding='utf-8'))
 removed=set(manifest['current'])|set(manifest['previously_removed'])
@@ -26,6 +32,7 @@ assert hashlib.sha256(huey).hexdigest()=='0065b2f6e1fdb019f9f20dfb112b238f7e3c6d
 changes=[]; dropped=[]; copied=[]
 repaired_models=json.loads((ROOT/'tools/model_repairs.json').read_text(encoding='utf-8'))
 repaired_models.update(json.loads((ROOT/'tools/orientation_repairs.json').read_text(encoding='utf-8')))
+display_overrides=set(json.loads((ROOT/'tools/display_resource_overrides.json').read_text(encoding='utf-8')))
 with zipfile.ZipFile(INPUT) as src,zipfile.ZipFile(OUT,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as dst:
     for n in src.namelist():
         if n.endswith('/'):continue
@@ -33,9 +40,9 @@ with zipfile.ZipFile(INPUT) as src,zipfile.ZipFile(OUT,'w',zipfile.ZIP_DEFLATED,
         if n.endswith('.class') and n.startswith(('cn/','com/')):continue
         data=src.read(n);new=data
         if n=='META-INF/neoforge.mods.toml':
-            s=data.decode('utf-8');s=s.replace('version="1.0.0j"','version="'+VERSION+'"')
+            s=data.decode('utf-8');s=re.sub(r'^version\s*=\s*"[^"]+"','version="'+VERSION+'"',s,flags=re.M)
             s=re.sub(r'^displayName=.*$', 'displayName="VLS 附属"',s,flags=re.M)
-            s=re.sub(r'^description=.*$', 'description="SBW VLS 附属载具包（281 台载具定义，modId 保持 zzyvehicles 以兼容旧存档）。包含二战平台清理、五款飞机机头 Blender 重建、Mi-17 朝向修复；并为 venom/mi17/toyota_seiki/z_sts_akhmat/aavc7c1 接入武器系统。"',s,flags=re.M)
+            s=re.sub(r'^description=.*$', 'description="SBW VLS 附属载具包（281 份载具定义，modId 为 zzyvehicles）。1.0.0n 运行审查修复：恢复各型履带曲线与父骨骼坐标、原始贴图、HUD 图标和开镜视角；保留 DeepSeek 的武器、座位及 HUD 修复。高精 WT 部件动画仍有已知限制，详见审查报告。"',s,flags=re.M)
             new=s.encode('utf-8')
         elif n.startswith('assets/') and '/lang/' in n and n.endswith('.json'):
             lang=json.loads(data); lang={k:v for k,v in lang.items() if not any(vv in k.split('.') for vv in removed)}
@@ -43,15 +50,17 @@ with zipfile.ZipFile(INPUT) as src,zipfile.ZipFile(OUT,'w',zipfile.ZIP_DEFLATED,
         elif n=='assets/zzyvehicles/textures/bedrock/vehicle/huey_rockets.png':new=huey
         elif n in {f'assets/zzyvehicles/models/bedrock/vehicle/{vid}.geo.json' for vid in repaired_models}:
             new=(ROOT/'resources'/n).read_bytes()
-        # Only explicit workspace resource edits override the input; other geometry stays byte-identical.
+        if n in display_overrides:new=(ROOT/'resources'/n).read_bytes()
+        # Data is authoritative, including DeepSeek's seat/HUD fixes; geometry overrides stay explicit.
         rp=ROOT/'resources'/n
         if rp.exists() and n.startswith('data/'):
             doc=json.loads(rp.read_text(encoding='utf-8'))
-            if 'Loadout' in doc:new=rp.read_bytes()
+            new=rp.read_bytes()
         if new!=data:changes.append(n)
         else:copied.append(n)
         dst.writestr(n,new)
     for p in classes.rglob('*.class'):dst.writestr(p.relative_to(classes).as_posix(),p.read_bytes())
+    for n in display_overrides-set(src.namelist()):dst.writestr(n,(ROOT/'resources'/n).read_bytes())
 with zipfile.ZipFile(OUT) as z:
     assert z.testzip() is None
     assert not any(is_removed(n) for n in z.namelist())
@@ -60,6 +69,7 @@ with zipfile.ZipFile(OUT) as z:
     aircraft=[n for n in data if json.loads(z.read(n)).get('Type') in ['Airplane','Helicopter']]
     assert len(aircraft)==60
 report=dict(version=VERSION,source_sha256=hashlib.file_digest(INPUT.open('rb'),'sha256').hexdigest(),
+            prior_blender_airframes_preserved=airframes_preserved,
             output=str(OUT),sha256=hashlib.file_digest(OUT.open('rb'),'sha256').hexdigest(),
             removed_platforms=manifest['current'],removed_resources=dropped,changed_resources=changes,
             preserved_resources=len(copied),definitions=len(data),aircraft=len(aircraft))

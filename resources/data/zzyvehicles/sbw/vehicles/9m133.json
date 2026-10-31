@@ -94,7 +94,7 @@
     "Fire3P": "superbwarfare:bmp_2_missile_fire_3p"
    },
    "SoundRadius": 12,
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/he.png",
    "Crosshair": "@VehicleCommonMissile"
   }
  },
@@ -115,7 +115,7 @@
  "VehicleContainerType": "Empty",
  "HasLowHealthWarning": false,
  "SelfHurtPercent": 0,
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/9m133_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/9m133_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/defense.png",
  "Type": "Defense"
 }

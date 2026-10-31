@@ -145,7 +145,7 @@
        "Change": "dragonrise_reforge:change_weapon"
       },
       "SoundRadius": 12,
-      "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_9m117m1.png"
+      "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_9m117m1.png"
      }
     }
    ],
@@ -209,7 +209,7 @@
      "Barrel"
     ]
    },
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/ru_tank_cannon_cross.png",
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/ru_tank_cannon_cross.png",
    "Name": "dragonrise_reforge:pkt",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
@@ -360,7 +360,7 @@
   "ExplosionDamage": 160,
   "ExplosionRadius": 8
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/bmp3_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/bmp3_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/ru_land.png",
  "Type": "APC",
  "CollisionLevel": {

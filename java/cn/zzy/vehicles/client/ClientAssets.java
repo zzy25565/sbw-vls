@@ -11,7 +11,7 @@ import java.util.*;
 @EventBusSubscriber(modid = ZzyVehicles.ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public final class ClientAssets {
     private static volatile Map<String, MeshAsset> assets = Map.of();
-    static MeshAsset get(String id) { return assets.get(id); }
+    public static MeshAsset get(String id) { return assets.get(id); }
     @SubscribeEvent public static void keys(RegisterKeyMappingsEvent event){event.register(LaunchAnimationControls.PLAY);}
     @SubscribeEvent public static void renderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ZzyVehicles.VISUAL_MISSILE.get(), VisualMissileRenderer::new);
@@ -23,7 +23,7 @@ public final class ClientAssets {
     @SubscribeEvent public static void reload(RegisterClientReloadListenersEvent event) {
         event.registerReloadListener((net.minecraft.server.packs.resources.ResourceManagerReloadListener) manager -> {
             Map<String, MeshAsset> next = new HashMap<>();
-            for (String id : List.of("buk_m3", "s400_launcher", "s400_radar", "vls", "buk_radar", "buk_visual_missile", "s400_launcher_visual_missile", "vls_visual_missile")) {
+            for (String id : List.of("buk_m3", "s400_launcher", "s400_radar", "vls", "buk_radar", "buk_visual_missile", "s400_launcher_visual_missile", "vls_visual_missile", "bmd_4m","bmp_3","challenger_2","iris_slm_fcs","iris_slm","leopard_2a5","t_80bvm","t_80u","zsu_23_4")) {
                 try {
                     MeshAsset asset = MeshAsset.load(manager, id); next.put(id, asset);
                     com.mojang.logging.LogUtils.getLogger().info("ZZY_ASSET_LOADED {} parts={} wheels={}",id,asset.parts().size(),asset.wheels().size());

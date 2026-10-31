@@ -20,7 +20,7 @@
   0.0,
   0.0
  ],
- "TurretControllerIndex": 1,
+ "TurretControllerIndex": 0,
  "Seats": [
   {
    "Transform": "Vehicle",
@@ -50,7 +50,7 @@
  "Weapons": {
   "AAMissile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/aam.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/aam.png",
    "DefaultZoom": 4,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",

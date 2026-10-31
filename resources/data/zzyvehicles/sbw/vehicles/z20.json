@@ -292,7 +292,7 @@
  ],
  "Weapons": {
   "Rocket": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/em.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/em.png",
    "AmmoType": "superbwarfare:small_rocket",
    "Name": ""
   }
@@ -359,7 +359,7 @@
   "CrashPassengers": true
  },
  "HUDColor": "0xFFC700",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/z20_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/z20_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/cn_aircraft.png",
  "Type": "Helicopter",
  "HudType": "@Helicopter",

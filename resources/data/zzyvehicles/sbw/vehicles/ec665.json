@@ -318,7 +318,7 @@
    "SoundRadius": 12
   },
   "@Missile": {
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_dyh.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_dyh.png",
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
    "RPM": 20,
@@ -422,7 +422,7 @@
      }
     }
    ],
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/missile_dyh.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_dyh.png",
    "DefaultZoom": 3,
    "DefaultFireMode": "Semi",
    "Magazine": 4,
@@ -492,7 +492,7 @@
   },
   "DriverAAMissile": {
    "AmmoType": "superbwarfare:medium_anti_air_missile",
-   "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/aam.png",
+   "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/aam.png",
    "DefaultZoom": 2,
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
@@ -621,7 +621,7 @@
   "CrashPassengers": true
  },
  "HUDColor": "0xFFC700",
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ec665_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/ec665_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/fr_aircraft.png",
  "Type": "Helicopter",
  "HudType": "@Helicopter",

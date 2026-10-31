@@ -272,7 +272,7 @@
    },
    "SoundRadius": 12,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/missile_tow.png",
-   "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/common_gun_little.png"
+   "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/common_gun_little.png"
   }
  },
  "HUDColor": "0xFFC700",
@@ -353,7 +353,7 @@
   "ExplosionDamage": 160,
   "ExplosionRadius": 8
  },
- "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/humveetow_icon.png",
+ "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/humveetow_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_land.png",
  "Type": "Car",
  "CollisionLevel": {
