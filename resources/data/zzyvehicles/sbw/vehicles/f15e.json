@@ -489,7 +489,7 @@
      "Ammo": "superbwarfare:medium_anti_air_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:ru_9m336_missile",
+      "Projectile": "zzyvehicles:aim120",
       "Name": "superbwarfare:medium_anti_air_missile",
       "Magazine": 2,
       "Damage": 1100,
@@ -538,7 +538,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:agm_65",
+      "Projectile": "zzyvehicles:agm65",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "Velocity": 2.5,
@@ -674,7 +674,7 @@
      "Ammo": "superbwarfare:medium_anti_air_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:ru_9m336_missile",
+      "Projectile": "zzyvehicles:aim120",
       "Name": "superbwarfare:medium_anti_air_missile",
       "Magazine": 2,
       "Damage": 1100,
@@ -723,7 +723,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:agm_65",
+      "Projectile": "zzyvehicles:agm65",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "Velocity": 2.5,
@@ -859,7 +859,7 @@
      "Ammo": "superbwarfare:medium_anti_air_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:ru_9m336_missile",
+      "Projectile": "zzyvehicles:aim120",
       "Name": "superbwarfare:medium_anti_air_missile",
       "Magazine": 2,
       "Damage": 1100,
@@ -908,7 +908,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:agm_65",
+      "Projectile": "zzyvehicles:agm65",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "Velocity": 2.5,
@@ -1117,7 +1117,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:agm_65",
+      "Projectile": "zzyvehicles:agm65",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 4,
       "Velocity": 2.5,
@@ -1199,7 +1199,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:mk_82",
+      "Projectile": "zzyvehicles:jdam_er",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 4,
       "Velocity": 0.6333,

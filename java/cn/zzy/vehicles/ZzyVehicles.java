@@ -34,6 +34,7 @@ public final class ZzyVehicles {
     public ZzyVehicles(IEventBus bus) {
         bus.addListener(cn.zzy.vehicles.network.LaunchAnimationPayload::register);
         ENTITIES.register(bus); ITEMS.register(bus);
+        com.zzy.sbwvls.ProjectileEntities.ENTITIES.register(bus);
         com.zzy.sbwvls.CreativeTabs.TABS.register(bus);
         bus.addListener((BuildCreativeModeTabContentsEvent event) -> {
             if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) ITEMS.getEntries().forEach(item -> event.accept(item.get()));

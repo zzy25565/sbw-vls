@@ -524,7 +524,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:agm_65",
+      "Projectile": "zzyvehicles:agm65",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "UseNacelleCamera": true,
@@ -649,7 +649,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:mk_82",
+      "Projectile": "zzyvehicles:jdam_er",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -814,7 +814,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:mk_84",
+      "Projectile": "zzyvehicles:gbu_24",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Gravity": 0.06,

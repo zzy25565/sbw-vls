@@ -22,11 +22,18 @@ OUT_A = os.path.join(ROOT, 'resources', 'assets', 'zzyvehicles')
 
 DR, SB, ZY = 'dragonrise_reforge:', 'superbwarfare:', 'zzyvehicles:'
 
+# 弹丸: 真迁移 —— 实体由本包注册 (zzyvehicles:<原id>), 源码继承 SBW open class
+# 依据: Gitee ly01lin/Dragon_Rise 1.21.1/NeoForge 分支 (MIT), 类文件见 java/com/redabysslucia
 PROJECTILE_MAP = {
-    'agm65': SB + 'agm_65', 'aim120': SB + 'ru_9m336_missile',
-    'kd_88a': SB + 'kh_39', 'ls_6': SB + 'mk_82', 'ls_6_ir': SB + 'kh_39',
-    'jdam_er': SB + 'mk_82', 'gbu_24': SB + 'mk_84', 'gbu_12': SB + 'mk_82',
-    'gb_250': SB + 'sc_250',
+    'agm65': ZY + 'agm65',
+    'aim120': ZY + 'aim120',
+    'kd_88a': ZY + 'kd_88a',
+    'ls_6': ZY + 'ls_6',
+    'ls_6_ir': ZY + 'ls_6_ir',
+    'jdam_er': ZY + 'jdam_er',
+    'gbu_24': ZY + 'gbu_24',
+    'gbu_12': ZY + 'gbu_12',
+    'gb_250': ZY + 'gb_250',
 }
 AMMO_MAP = {
     '105mmHE': 'medium_shell_he', '155mm_m60_cm': 'large_shell_cm',

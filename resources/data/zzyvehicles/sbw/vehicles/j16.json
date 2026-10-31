@@ -714,7 +714,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:kh_39",
+      "Projectile": "zzyvehicles:kd_88a",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "Velocity": 2.5,
@@ -786,7 +786,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:sc_250",
+      "Projectile": "zzyvehicles:gb_250",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -861,7 +861,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:mk_82",
+      "Projectile": "zzyvehicles:ls_6",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -936,7 +936,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:kh_39",
+      "Projectile": "zzyvehicles:ls_6_ir",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -1096,7 +1096,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:kh_39",
+      "Projectile": "zzyvehicles:kd_88a",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "Velocity": 2.5,
@@ -1168,7 +1168,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:mk_82",
+      "Projectile": "zzyvehicles:ls_6",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -1243,7 +1243,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:kh_39",
+      "Projectile": "zzyvehicles:ls_6_ir",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -1398,7 +1398,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:kh_39",
+      "Projectile": "zzyvehicles:kd_88a",
       "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 1,
       "Velocity": 2.5,
@@ -1549,7 +1549,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:mk_82",
+      "Projectile": "zzyvehicles:ls_6",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
@@ -1624,7 +1624,7 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "superbwarfare:kh_39",
+      "Projectile": "zzyvehicles:ls_6_ir",
       "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 2,
       "Velocity": 0.6333,
