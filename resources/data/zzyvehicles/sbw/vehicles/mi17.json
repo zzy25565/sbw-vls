@@ -126,7 +126,10 @@
      -10
     ]
    },
-   "CanRotateHead": false
+   "CanRotateHead": false,
+   "Weapons": [
+    "PassengerMachineGun"
+   ]
   },
   {
    "IsEnclosed": true,

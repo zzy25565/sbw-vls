@@ -310,7 +310,10 @@
     0.73
    ],
    "MaxYaw": 60,
-   "MinYaw": -60
+   "MinYaw": -60,
+   "Weapons": [
+    "Cannon"
+   ]
   },
   {
    "IsEnclosed": false,

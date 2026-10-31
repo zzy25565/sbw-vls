@@ -1713,7 +1713,9 @@
    "CanRotateHead": true,
    "MinPitch": -80,
    "MaxPitch": 80,
-   "Weapons": [],
+   "Weapons": [
+    "AAMissile"
+   ],
    "CameraPos": {
     "Transform": "Vehicle",
     "Position": [

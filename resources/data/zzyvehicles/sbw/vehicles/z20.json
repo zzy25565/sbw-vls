@@ -137,7 +137,10 @@
      0.3,
      3.5625
     ]
-   }
+   },
+   "Weapons": [
+    "Rocket"
+   ]
   },
   {
    "Transform": "Vehicle",

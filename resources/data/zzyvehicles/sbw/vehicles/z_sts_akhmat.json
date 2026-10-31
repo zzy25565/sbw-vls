@@ -130,7 +130,10 @@
     1.0,
     0.7
    ],
-   "CanRotateHead": true
+   "CanRotateHead": true,
+   "Weapons": [
+    "DriverAAMissile"
+   ]
   },
   {
    "HidePassenger": false,

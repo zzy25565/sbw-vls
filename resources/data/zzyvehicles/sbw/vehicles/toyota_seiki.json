@@ -40,7 +40,10 @@
    "MinPitch": -60,
    "MaxPitch": 60,
    "MinYaw": -95,
-   "MaxYaw": 95
+   "MaxYaw": 95,
+   "Weapons": [
+    "PassengerMachineGun"
+   ]
   },
   {
    "IsEnclosed": false,
@@ -95,7 +98,10 @@
    "MinPitch": -5,
    "MaxPitch": 45,
    "MinYaw": -30,
-   "MaxYaw": 30
+   "MaxYaw": 30,
+   "Weapons": [
+    "PassengerMachineGun"
+   ]
   }
  ],
  "EngineType": "Wheel",
@@ -246,5 +252,6 @@
  "PassengerWeaponStationPitchRange": [
   -10,
   60
- ]
+ ],
+ "HudType": "@Land"
 }

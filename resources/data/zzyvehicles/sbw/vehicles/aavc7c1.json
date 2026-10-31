@@ -427,7 +427,10 @@
      3.313,
      1.375
     ]
-   }
+   },
+   "Weapons": [
+    "M2HB"
+   ]
   },
   {
    "HidePassenger": true,
