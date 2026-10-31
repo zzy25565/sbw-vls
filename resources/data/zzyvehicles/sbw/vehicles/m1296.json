@@ -408,14 +408,14 @@
    "ProjectileLife": 40,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x66FF00",
-   "Name": "dragonrise_reforge:30mm_mk258_apfsds",
+   "Name": "MK258 穿甲弹",
    "Projectile": "superbwarfare:small_cannon_shell",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_25mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_25mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_25mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_25mm_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:cannon_25mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_25mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_25mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_25mm_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm_ap.png",
@@ -429,7 +429,7 @@
       "Damage": 15,
       "ExplosionDamage": 18,
       "ExplosionRadius": 5,
-      "Name": "dragonrise_reforge:30mm_hefi_he"
+      "Name": "superbwarfare:small_shell_he"
      }
     }
    ],
@@ -484,13 +484,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:M240",
+   "Name": "7.62mm M240 同轴机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -529,13 +529,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:M2HB",
+   "Name": "12.7mm M2HB 重机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:m2_fire_1p",
-    "Fire3P": "dragonrise_reforge:m2_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:m2_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:m2_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:m2_fire_1p",
+    "Fire3P": "zzyvehicles:m2_fire_3p",
+    "Fire3PFar": "zzyvehicles:m2_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:m2_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   }

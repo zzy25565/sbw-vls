@@ -88,7 +88,7 @@
    "ShootAnimationTime": 30,
    "Crosshair": "@VehicleRuApc",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:155mm_m60",
+   "Name": "155mm m/60 榴弹炮",
    "SoundInfo": {
     "Fire1P": "superbwarfare:plz_05_fire_1p",
     "Fire3P": "superbwarfare:plz_05_fire_3p",
@@ -110,7 +110,7 @@
       "Damage": 450,
       "ExplosionDamage": 260,
       "ExplosionRadius": 14,
-      "Name": "dragonrise_reforge:155mm_m60_he"
+      "Name": "superbwarfare:large_shell_he"
      }
     },
     {
@@ -123,7 +123,7 @@
       "Damage": 600,
       "ExplosionDamage": 240,
       "ExplosionRadius": 7,
-      "Name": "dragonrise_reforge:155mm_m60_cm"
+      "Name": "superbwarfare:large_shell_cm"
      }
     },
     {
@@ -136,7 +136,7 @@
       "Damage": 300,
       "ExplosionDamage": 40,
       "ExplosionRadius": 11,
-      "Name": "dragonrise_reforge:155mm_m60_wp"
+      "Name": "superbwarfare:large_shell_wp"
      }
     }
    ],

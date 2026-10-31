@@ -60,7 +60,7 @@
   "Missile": {
    "DefaultFireMode": "Semi",
    "AvailableFireModes": "Semi",
-   "Name": "dragonrise_reforge:9m133",
+   "Name": "9M133 短号 反坦克导弹",
    "AmmoType": "superbwarfare:medium_anti_ground_missile",
    "Projectile": "superbwarfare:wire_guide_missile",
    "DefaultZoom": 3,

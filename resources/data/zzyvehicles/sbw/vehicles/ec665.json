@@ -232,13 +232,13 @@
    "RecoilTime": 31,
    "RecoilForce": 0.62,
    "Spread": 0.25,
-   "Name": "dragonrise_reforge:m871cannon",
+   "Name": "30mm GIAT M781 旋转炮塔",
    "SoundInfo": {
     "Fire1P": "superbwarfare:mi_28_cannon_fire_1p",
     "Fire3P": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:mi_28_cannon_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@VehicleCommonGunDynamic",
    "CrosshairColor": "0xFFC700",
@@ -268,7 +268,7 @@
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:small_rocket",
    "Spread": 0.25,
-   "Name": "dragonrise_reforge:23sneb",
+   "Name": "23型 SNEB 火箭弹",
    "RPM": 450,
    "Damage": 85,
    "ExplosionDamage": 42,
@@ -312,7 +312,7 @@
     "Fire3P": "superbwarfare:small_rocket_fire_3p",
     "VehicleReload3p": "superbwarfare:missile_reload",
     "VehicleReloadSoundTime": 7,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@Empty",
    "SoundRadius": 12
@@ -325,7 +325,7 @@
    "EmptyReloadTime": 240,
    "AmmoType": "superbwarfare:medium_anti_ground_missile",
    "Projectile": "superbwarfare:wire_guide_missile",
-   "Name": "dragonrise_reforge:dyh",
+   "Name": "地狱火 空对地导弹",
    "Damage": 650,
    "ExplosionDamage": 80,
    "ExplosionRadius": 7,
@@ -336,7 +336,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 8
   },
@@ -409,7 +409,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Name": "dragonrise_reforge:dyh_ground",
+      "Name": "superbwarfare:medium_anti_ground_missile",
       "SeekWeaponInfo": {
        "SeekDirection": "Barrel",
        "SeekRange": 384,
@@ -428,7 +428,7 @@
    "Magazine": 4,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:dyh",
+   "Name": "地狱火 空对地导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -479,7 +479,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locked"
    },
@@ -499,7 +499,7 @@
    "Magazine": 4,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:mistral",
+   "Name": "西北风 空对空导弹",
    "Damage": 260,
    "ExplosionDamage": 90,
    "ExplosionRadius": 6,
@@ -550,7 +550,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },

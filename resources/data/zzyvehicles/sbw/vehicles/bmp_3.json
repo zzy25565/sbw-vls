@@ -116,7 +116,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "@Custom",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:3of70",
+   "Name": "100mm 3OF70 杀爆弹",
    "AmmoType": [
     "superbwarfare:large_shell_he",
     {
@@ -124,7 +124,7 @@
      "Override": {
       "Spread": 0.5,
       "CrosshairColor": "0xFFC700",
-      "Name": "dragonrise_reforge:9M117M1",
+      "Name": "superbwarfare:medium_anti_ground_missile",
       "Projectile": "superbwarfare:wire_guide_missile",
       "IsArmorPiercingProjectile": true,
       "Damage": 600,
@@ -136,13 +136,13 @@
       "RecoilForce": 0.05,
       "Crosshair": "@VehicleCommonMissile",
       "SoundInfo": {
-       "Fire1P": "dragonrise_reforge:zbd04a_100mm_fire_1p",
-       "Fire3P": "dragonrise_reforge:zbd04a_100mm_fire_3p",
-       "Fire3PFar": "dragonrise_reforge:zbd04a_100mm_fire_3p_far",
-       "Fire3PVeryFar": "dragonrise_reforge:zbd04a_100mm_fire_3p_far",
-       "VehicleReload": "dragonrise_reforge:zbd04a_100mm_reload",
+       "Fire1P": "zzyvehicles:zbd04a_100mm_fire_1p",
+       "Fire3P": "zzyvehicles:zbd04a_100mm_fire_3p",
+       "Fire3PFar": "zzyvehicles:zbd04a_100mm_fire_3p_far",
+       "Fire3PVeryFar": "zzyvehicles:zbd04a_100mm_fire_3p_far",
+       "VehicleReload": "zzyvehicles:zbd04a_100mm_reload",
        "VehicleReloadSoundTime": 0,
-       "Change": "dragonrise_reforge:change_weapon"
+       "Change": "zzyvehicles:change_weapon"
       },
       "SoundRadius": 12,
       "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_9m117m1.png"
@@ -150,12 +150,12 @@
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:zbd04a_100mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:zbd04a_100mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:zbd04a_100mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:zbd04a_100mm_fire_3p_far",
-    "VehicleReload": "dragonrise_reforge:zbd04a_100mm_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:zbd04a_100mm_fire_1p",
+    "Fire3P": "zzyvehicles:zbd04a_100mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:zbd04a_100mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:zbd04a_100mm_fire_3p_far",
+    "VehicleReload": "zzyvehicles:zbd04a_100mm_reload",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
      "superbwarfare:into_cannon"
     ]
@@ -210,13 +210,13 @@
     ]
    },
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/ru_tank_cannon_cross.png",
-   "Name": "dragonrise_reforge:pkt",
+   "Name": "7.62mm PKT 同轴机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -239,14 +239,14 @@
    "ProjectileLife": 40,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x66FF00",
-   "Name": "dragonrise_reforge:30mm_3ubr8_apds",
+   "Name": "3UBR8 穿甲弹",
    "Projectile": "superbwarfare:small_cannon_shell",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_30mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_30mm_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:cannon_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_30mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_30mm_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm_ap.png",
@@ -261,7 +261,7 @@
       "Damage": 15,
       "ExplosionDamage": 18,
       "ExplosionRadius": 5,
-      "Name": "dragonrise_reforge:30mm_hefi_he"
+      "Name": "superbwarfare:small_shell_he"
      }
     }
    ],

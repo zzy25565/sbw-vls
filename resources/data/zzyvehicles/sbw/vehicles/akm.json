@@ -256,7 +256,7 @@
    "Magazine": 8,
    "EmptyReloadTime": 320,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:missile_9m37",
+   "Name": "9M37 防空导弹",
    "Damage": 100,
    "ExplosionDamage": 170,
    "ExplosionRadius": 4,
@@ -324,7 +324,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },

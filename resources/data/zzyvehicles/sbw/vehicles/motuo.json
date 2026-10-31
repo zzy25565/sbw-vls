@@ -103,7 +103,7 @@
  "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/motuo_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/civilian.png",
  "Type": "Car",
- "EngineSound": "dragonrise_reforge:wheel_loop1",
+ "EngineSound": "zzyvehicles:wheel_loop1",
  "HornSound": "superbwarfare:truck_horn",
  "TerrainCompat": [
   [

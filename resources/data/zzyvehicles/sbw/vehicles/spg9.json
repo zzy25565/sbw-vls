@@ -86,13 +86,13 @@
      "Barrel"
     ]
    },
-   "Name": "dragonrise_reforge:PG9",
+   "Name": "73mm PG-9 破甲弹",
    "SoundInfo": {
     "Fire1P": "superbwarfare:bmp_2_cannon_fire_1p",
     "Fire3P": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PVeryFar": "superbwarfare:bmp_2_cannon_fire_3p",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24
   }

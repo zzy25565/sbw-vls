@@ -327,7 +327,7 @@
    "ShootAnimationTime": 60,
    "Crosshair": "@VehicleDynamicCross",
    "CrosshairColor": "0xFF6600",
-   "Name": "dragonrise_reforge:105mmHowitzer",
+   "Name": "105mm 榴弹炮",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -340,17 +340,17 @@
       "Damage": 180,
       "ExplosionDamage": 220,
       "ExplosionRadius": 20,
-      "Name": "dragonrise_reforge:105mmHE"
+      "Name": "superbwarfare:medium_shell_he"
      }
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:m1a2_fire_1p",
-    "Fire3P": "dragonrise_reforge:m1a2_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:m1a2_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:m1a2_fire_3p_far",
-    "VehicleReload": "dragonrise_reforge:ztz99a_reload",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:m1a2_fire_1p",
+    "Fire3P": "zzyvehicles:m1a2_fire_3p",
+    "Fire3PFar": "zzyvehicles:m1a2_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:m1a2_fire_3p_far",
+    "VehicleReload": "zzyvehicles:ztz99a_reload",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 45,
    "ShootPos": {
@@ -390,13 +390,13 @@
    "ShootAnimationTime": 5,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0xFFAA00",
-   "Name": "dragonrise_reforge:40mmBofors",
+   "Name": "40mm 博福斯机关炮",
    "SoundInfo": {
     "Fire1P": "superbwarfare:lav_150_cannon_fire_1p",
     "Fire3P": "superbwarfare:lav_150_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:lav_150_cannon_far",
     "Fire3PVeryFar": "superbwarfare:lav_150_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 30,
    "AmmoType": "superbwarfare:small_shell_ap",
@@ -447,13 +447,13 @@
     ]
    },
    "Crosshair": "@VehicleDynamicCross",
-   "Name": "dragonrise_reforge:25mmGatling",
+   "Name": "25mm 加特林机炮",
    "SoundInfo": {
     "Fire1P": "superbwarfare:m_2_hb_fire_1p",
     "Fire3P": "superbwarfare:m_2_hb_fire_3p",
     "Fire3PFar": "superbwarfare:m_2_hb_far",
     "Fire3PVeryFar": "superbwarfare:m_2_hb_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 25
   },
@@ -465,7 +465,7 @@
    "Magazine": 8,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:agm_65",
-   "Name": "dragonrise_reforge:dyh",
+   "Name": "地狱火 空对地导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -543,7 +543,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -569,7 +569,7 @@
   "LiftSpeed": 1.5,
   "SpeedRate": 0.95,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:plane_start1",
+  "EngineStartSound": "zzyvehicles:plane_start1",
   "EngineSoundVolume": 0.8
  },
  "AllowFreeCam": true,
@@ -621,7 +621,7 @@
   3.0,
   8.0
  ],
- "EngineSound": "dragonrise_reforge:plane_loop",
+ "EngineSound": "zzyvehicles:plane_loop",
  "InertiaRotateRate": 0.8,
  "TerrainCompat": [
   [

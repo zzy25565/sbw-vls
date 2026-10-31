@@ -362,13 +362,13 @@
    "RecoilTime": 31,
    "RecoilForce": 0.62,
    "Spread": 0.25,
-   "Name": "dragonrise_reforge:23mm",
+   "Name": "23mm 23L航空机炮",
    "SoundInfo": {
     "Fire1P": "superbwarfare:mi_28_cannon_fire_1p",
     "Fire3P": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:mi_28_cannon_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@VehicleCommonGunDynamic",
    "CrosshairColor": "0xFFC700",
@@ -406,10 +406,10 @@
   "SpeedRate": 1.2,
   "Resistance": 1.2,
   "HasGear": true,
-  "EngineStartSound": "dragonrise_reforge:jet_engine_start",
+  "EngineStartSound": "zzyvehicles:jet_engine_start",
   "EngineSoundVolume": 2
  },
- "EngineSound": "dragonrise_reforge:jet_engine",
+ "EngineSound": "zzyvehicles:jet_engine",
  "ThirdPersonCameraPos": [
   2.7,
   4,

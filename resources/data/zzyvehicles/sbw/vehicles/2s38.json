@@ -176,7 +176,7 @@
    "ShootAnimationTime": 20,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:3UBM22",
+   "Name": "57mm 3UBM22 穿甲弹",
    "Gravity": 0.05,
    "AmmoType": [
     "superbwarfare:large_shell_ap",
@@ -191,7 +191,7 @@
       "Damage": 250,
       "ExplosionDamage": 60,
       "ExplosionRadius": 4,
-      "Name": "dragonrise_reforge:OR-281U"
+      "Name": "superbwarfare:small_shell_he"
      }
     }
    ],
@@ -206,13 +206,13 @@
     "CalculateTrajectory": true
    },
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:fire_sound_57mm",
-    "Fire3P": "dragonrise_reforge:fire_sound_57mm",
-    "Fire3PFar": "dragonrise_reforge:fire_sound_57mm_far",
-    "Fire3PVeryFar": "dragonrise_reforge:fire_sound_57mm_far",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:fire_sound_57mm",
+    "Fire3P": "zzyvehicles:fire_sound_57mm",
+    "Fire3PFar": "zzyvehicles:fire_sound_57mm_far",
+    "Fire3PVeryFar": "zzyvehicles:fire_sound_57mm_far",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
-     "dragonrise_reforge:ztz99a_reload"
+     "zzyvehicles:ztz99a_reload"
     ]
    },
    "SoundRadius": 32,
@@ -265,13 +265,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:pktm",
+   "Name": "7.62mm PKTM 同轴机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   }

@@ -217,7 +217,7 @@
       "SoundInfo": {
        "Fire1P": "superbwarfare:prism_tank_fire_low_1p",
        "Fire3P": "superbwarfare:prism_tank_fire_low_3p",
-       "Change": "dragonrise_reforge:change_weapon"
+       "Change": "zzyvehicles:change_weapon"
       }
      }
     }
@@ -228,7 +228,7 @@
    "SoundInfo": {
     "Fire1P": "superbwarfare:prism_tank_fire_high_1p",
     "Fire3P": "superbwarfare:prism_tank_fire_high_3p",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 12,
    "ShootPos": {
@@ -255,7 +255,7 @@
    "EmptyReloadTime": 120,
    "Projectile": "superbwarfare:small_rocket",
    "Spread": 0.4,
-   "Name": "dragonrise_reforge:tjrocket",
+   "Name": "小型引力坍缩弹",
    "RPM": 450,
    "Damage": 960,
    "ExplosionDamage": 240,
@@ -544,7 +544,7 @@
     "Fire3P": "superbwarfare:small_rocket_fire_3p",
     "VehicleReload3p": "superbwarfare:missile_reload",
     "VehicleReloadSoundTime": 7,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -560,7 +560,7 @@
    "EmptyReloadTime": 120,
    "Projectile": "superbwarfare:small_rocket",
    "Spread": 0.4,
-   "Name": "dragonrise_reforge:tjbigrocket",
+   "Name": "中型引力坍缩弹",
    "RPM": 100,
    "Damage": 160,
    "ExplosionDamage": 480,
@@ -649,7 +649,7 @@
     "Fire3P": "superbwarfare:small_rocket_fire_3p",
     "VehicleReload3p": "superbwarfare:missile_reload",
     "VehicleReloadSoundTime": 7,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -666,7 +666,7 @@
    "Projectile": "superbwarfare:mk_82",
    "Gravity": 0.05,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:neo",
+   "Name": "奇点诱发弹",
    "ExplosionDamage": 114514,
    "ExplosionRadius": 210,
    "AddShooterDeltaMovement": true,
@@ -702,7 +702,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirBomb",
    "CrosshairColor": "0x66FF00",
@@ -714,7 +714,7 @@
    "Magazine": 10,
    "EmptyReloadTime": 120,
    "Projectile": "superbwarfare:agm_65",
-   "Name": "dragonrise_reforge:tjaa",
+   "Name": "轨道裁定拦截弹",
    "Damage": 3100,
    "ExplosionDamage": 540,
    "ExplosionRadius": 24,
@@ -803,7 +803,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -821,7 +821,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Name": "dragonrise_reforge:aasmg",
+      "Name": "superbwarfare:medium_anti_air_missile",
       "SeekWeaponInfo": {
        "SeekDirection": "Barrel",
        "SeekRange": 384,
@@ -840,7 +840,7 @@
    "Magazine": 10,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:tjat",
+   "Name": "结构解离弹",
    "Damage": 6100,
    "ExplosionDamage": 280,
    "ExplosionRadius": 30,
@@ -927,7 +927,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locked"
    },
@@ -948,7 +948,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Name": "dragonrise_reforge:aasmg",
+      "Name": "superbwarfare:medium_anti_air_missile",
       "SeekWeaponInfo": {
        "SeekDirection": "Barrel",
        "SeekRange": 384,
@@ -967,7 +967,7 @@
    "Magazine": 5,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:tjbigat",
+   "Name": "常规形引力坍缩弹",
    "Damage": 9100,
    "ExplosionDamage": 840,
    "ExplosionRadius": 46,
@@ -1029,7 +1029,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locked"
    },
@@ -1116,7 +1116,7 @@
   "LiftSpeed": 2,
   "SpeedRate": 3,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:jet_engine_start",
+  "EngineStartSound": "zzyvehicles:jet_engine_start",
   "EngineSoundVolume": 0.8
  },
  "TerrainCompat": [
@@ -1136,5 +1136,5 @@
    -0.74
   ]
  ],
- "EngineSound": "dragonrise_reforge:jet_engine"
+ "EngineSound": "zzyvehicles:jet_engine"
 }

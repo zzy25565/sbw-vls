@@ -157,14 +157,14 @@
    "ProjectileLife": 40,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x66FF00",
-   "Name": "dragonrise_reforge:30mm_apt_ap",
+   "Name": "AP-T 穿甲弹",
    "Projectile": "superbwarfare:small_cannon_shell",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_30mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_30mm_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:cannon_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_30mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_30mm_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm_ap.png",
@@ -179,7 +179,7 @@
       "Damage": 15,
       "ExplosionDamage": 18,
       "ExplosionRadius": 5,
-      "Name": "dragonrise_reforge:30mm_hefi_he"
+      "Name": "superbwarfare:small_shell_he"
      }
     }
    ],
@@ -218,14 +218,14 @@
    "ProjectileLife": 40,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x66FF00",
-   "Name": "dragonrise_reforge:30mm_apt_ap",
+   "Name": "AP-T 穿甲弹",
    "Projectile": "superbwarfare:small_cannon_shell",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_30mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_30mm_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:cannon_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_30mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_30mm_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm_ap.png",
@@ -240,7 +240,7 @@
       "Damage": 15,
       "ExplosionDamage": 18,
       "ExplosionRadius": 5,
-      "Name": "dragonrise_reforge:30mm_hefi_he"
+      "Name": "superbwarfare:small_shell_he"
      }
     }
    ],
@@ -300,7 +300,7 @@
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 12,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/gun_7_62mm.png"
@@ -358,7 +358,7 @@
     "Fire3P": "superbwarfare:bmp_2_missile_fire_3p",
     "VehicleReload3p": "superbwarfare:medium_missile_reload",
     "VehicleReloadSoundTime": 28,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 12,
    "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/missile_9m120.png"

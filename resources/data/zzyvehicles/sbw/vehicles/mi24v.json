@@ -245,13 +245,13 @@
    "RecoilTime": 31,
    "RecoilForce": 0.62,
    "Spread": 0.25,
-   "Name": "dragonrise_reforge:mi24v_cannon",
+   "Name": "GSh-23L 23mm 双管机炮",
    "SoundInfo": {
     "Fire1P": "superbwarfare:mi_28_cannon_fire_1p",
     "Fire3P": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:mi_28_cannon_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@VehicleCommonGunDynamic",
    "CrosshairColor": "0xFFC700",
@@ -281,7 +281,7 @@
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:small_rocket",
    "Spread": 0.25,
-   "Name": "dragonrise_reforge:mi24v_rocket",
+   "Name": "S-8 火箭弹",
    "RPM": 450,
    "Damage": 50,
    "ExplosionDamage": 42,
@@ -335,7 +335,7 @@
     "Fire3P": "superbwarfare:small_rocket_fire_3p",
     "VehicleReload3p": "superbwarfare:missile_reload",
     "VehicleReloadSoundTime": 7,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@Empty",
    "SoundRadius": 12
@@ -348,7 +348,7 @@
    "EmptyReloadTime": 240,
    "AmmoType": "superbwarfare:medium_anti_ground_missile",
    "Projectile": "superbwarfare:wire_guide_missile",
-   "Name": "dragonrise_reforge:mi24v_atgm",
+   "Name": "9M114 突击-S 反坦克导弹",
    "Damage": 650,
    "ExplosionDamage": 80,
    "ExplosionRadius": 7,
@@ -360,7 +360,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 8,
    "ShootPos": {}
@@ -414,7 +414,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Name": "dragonrise_reforge:mi24v_asm_ground",
+      "Name": "superbwarfare:medium_anti_ground_missile",
       "SeekWeaponInfo": {
        "SeekDirection": "Barrel",
        "SeekRange": 384,
@@ -433,7 +433,7 @@
    "Magazine": 4,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:mi24v_asm_entity",
+   "Name": "Kh-39 空对地导弹 (实体模式)",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -486,7 +486,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locked"
    },
@@ -506,7 +506,7 @@
    "Magazine": 4,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:mi24v_aam",
+   "Name": "9M336 针-V 防空导弹",
    "Damage": 260,
    "ExplosionDamage": 90,
    "ExplosionRadius": 6,
@@ -557,7 +557,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },

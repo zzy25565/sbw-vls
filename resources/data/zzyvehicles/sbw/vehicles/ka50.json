@@ -195,7 +195,7 @@
     "Fire3P": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:mi_28_cannon_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/ru_heli_cannon_cross.png",
    "CrosshairColor": "0xFFC700",
@@ -271,7 +271,7 @@
     "Fire3P": "superbwarfare:small_rocket_fire_3p",
     "VehicleReload3p": "superbwarfare:missile_reload",
     "VehicleReloadSoundTime": 7,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@Empty",
    "SoundRadius": 12
@@ -284,7 +284,7 @@
    "Spread": 0.5,
    "RPM": 120,
    "CrosshairColor": "0xFFC700",
-   "Name": "dragonrise_reforge:9m127",
+   "Name": "9m127 涡流 反坦克导弹",
    "AmmoType": "superbwarfare:medium_anti_ground_missile",
    "Projectile": "superbwarfare:wire_guide_missile",
    "Magazine": 12,
@@ -316,7 +316,7 @@
     "Fire3P": "superbwarfare:bmp_2_missile_fire_3p",
     "VehicleReload3p": "superbwarfare:medium_missile_reload",
     "VehicleReloadSoundTime": 28,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 12,
    "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_9m127.png"

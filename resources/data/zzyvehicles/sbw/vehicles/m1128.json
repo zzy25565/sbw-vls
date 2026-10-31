@@ -307,7 +307,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:M900",
+   "Name": "105mm M900 穿甲弹",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -320,7 +320,7 @@
       "Damage": 200,
       "ExplosionDamage": 40,
       "ExplosionRadius": 6,
-      "Name": "dragonrise_reforge:M393A2"
+      "Name": "superbwarfare:medium_shell_he"
      }
     },
     {
@@ -328,7 +328,7 @@
      "Override": {
       "Spread": 0.5,
       "CrosshairColor": "0xFFC700",
-      "Name": "dragonrise_reforge:LAHAT",
+      "Name": "superbwarfare:medium_anti_ground_missile",
       "Projectile": "superbwarfare:wire_guide_missile",
       "IsArmorPiercingProjectile": true,
       "Damage": 600,
@@ -339,13 +339,13 @@
       "RecoilForce": 0.05,
       "Crosshair": "@VehicleCommonMissile",
       "SoundInfo": {
-       "Fire1P": "dragonrise_reforge:cannon_125mm_fire_1p",
-       "Fire3P": "dragonrise_reforge:cannon_125mm_fire_3p",
-       "Fire3PFar": "dragonrise_reforge:cannon_125mm_fire_3p_far",
-       "Fire3PVeryFar": "dragonrise_reforge:cannon_125mm_fire_3p_very_far",
+       "Fire1P": "zzyvehicles:cannon_125mm_fire_1p",
+       "Fire3P": "zzyvehicles:cannon_125mm_fire_3p",
+       "Fire3PFar": "zzyvehicles:cannon_125mm_fire_3p_far",
+       "Fire3PVeryFar": "zzyvehicles:cannon_125mm_fire_3p_very_far",
        "VehicleReload3p": "superbwarfare:medium_missile_reload",
        "VehicleReloadSoundTime": 28,
-       "Change": "dragonrise_reforge:change_weapon"
+       "Change": "zzyvehicles:change_weapon"
       },
       "SoundRadius": 12,
       "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_gp_105.png"
@@ -353,14 +353,14 @@
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_125mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_125mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_125mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_125mm_fire_3p_very_far",
-    "VehicleReload": "dragonrise_reforge:ztz99a_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:cannon_125mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_125mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_125mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_125mm_fire_3p_very_far",
+    "VehicleReload": "zzyvehicles:ztz99a_reload",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
-     "dragonrise_reforge:ztz99a_reload"
+     "zzyvehicles:ztz99a_reload"
     ]
    },
    "SoundRadius": 32,
@@ -413,13 +413,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:M240",
+   "Name": "7.62mm M240 同轴机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -458,13 +458,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:M2HB",
+   "Name": "12.7mm M2HB 重机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:m2_fire_1p",
-    "Fire3P": "dragonrise_reforge:m2_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:m2_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:m2_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:m2_fire_1p",
+    "Fire3P": "zzyvehicles:m2_fire_3p",
+    "Fire3PFar": "zzyvehicles:m2_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:m2_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   }

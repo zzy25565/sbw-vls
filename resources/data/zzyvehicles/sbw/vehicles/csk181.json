@@ -226,13 +226,13 @@
     ]
    },
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/common_gun_little.png",
-   "Name": "dragonrise_reforge:54T",
+   "Name": "12.7mm 54式 高射机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:qjz89_fire_1p",
-    "Fire3P": "dragonrise_reforge:qjz89_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:qjz89_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:qjz89_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:qjz89_fire_1p",
+    "Fire3P": "zzyvehicles:qjz89_fire_3p",
+    "Fire3PFar": "zzyvehicles:qjz89_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:qjz89_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -256,13 +256,13 @@
    "Spread": 1.2,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/common_gun_little.png",
    "CrosshairColor": "0xFFC700",
-   "Name": "dragonrise_reforge:87",
+   "Name": "87式 榴弹发射器",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:zbd04a_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:zbd04a_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:zbd04a_30mm_fire_3p_far",
+    "Fire1P": "zzyvehicles:zbd04a_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:zbd04a_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:zbd04a_30mm_fire_3p_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:grenade_40mm",
@@ -384,7 +384,7 @@
    ]
   ]
  },
- "EngineSound": "dragonrise_reforge:wheel_loop1",
+ "EngineSound": "zzyvehicles:wheel_loop1",
  "HudType": "@Land",
  "TerrainCompat": [
   [

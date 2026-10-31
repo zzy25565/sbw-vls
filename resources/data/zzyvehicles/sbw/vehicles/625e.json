@@ -143,7 +143,7 @@
     "Fire3P": "superbwarfare:lav_150_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:lav_150_cannon_far",
     "Fire3PVeryFar": "superbwarfare:lav_150_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:small_shell_aa",
@@ -182,7 +182,7 @@
    "Magazine": 8,
    "EmptyReloadTime": 320,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:missile_fb10",
+   "Name": "FB-10 对空导弹",
    "Damage": 100,
    "ExplosionDamage": 170,
    "ExplosionRadius": 4,
@@ -250,7 +250,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },

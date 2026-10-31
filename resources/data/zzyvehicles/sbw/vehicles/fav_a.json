@@ -226,13 +226,13 @@
    "Spread": 0.6,
    "Crosshair": "@VehicleCommonGun",
    "CrosshairColor": "0xFFC700",
-   "Name": "dragonrise_reforge:m2hb",
+   "Name": "12.7mm M2HB 重机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:zbd04a_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:zbd04a_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:zbd04a_30mm_fire_3p_far",
+    "Fire1P": "zzyvehicles:zbd04a_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:zbd04a_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:zbd04a_30mm_fire_3p_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "@HeavyAmmo",

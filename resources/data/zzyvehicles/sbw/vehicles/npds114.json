@@ -82,7 +82,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "@VehicleDynamicCross",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:type59ap",
+   "Name": "100mm 59式 脱壳穿甲弹",
    "AmmoType": "superbwarfare:large_shell_ap",
    "SeekWeaponInfo": {
     "SeekDirection": "Barrel",
@@ -107,7 +107,7 @@
     ]
    },
    "SoundInfo": {
-    "FireSoundInstances": "dragonrise_reforge:fire_sound_57mm"
+    "FireSoundInstances": "zzyvehicles:fire_sound_57mm"
    }
   }
  },

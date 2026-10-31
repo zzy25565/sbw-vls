@@ -310,13 +310,13 @@
    "ProjectileLife": 40,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x66FF00",
-   "Name": "dragonrise_reforge:kord",
+   "Name": "Kord重机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:mgfire1",
-    "Fire3P": "dragonrise_reforge:mgfire1",
-    "Fire3PFar": "dragonrise_reforge:mgfire1",
+    "Fire1P": "zzyvehicles:mgfire1",
+    "Fire3P": "zzyvehicles:mgfire1",
+    "Fire3PFar": "zzyvehicles:mgfire1",
     "Fire3PVeryFar": "superbwarfare:m_2_hb_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:heavy_ammo",
@@ -372,13 +372,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:rpk",
+   "Name": "RPK机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   }

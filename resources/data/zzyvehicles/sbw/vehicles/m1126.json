@@ -425,13 +425,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:M2HB",
+   "Name": "12.7mm M2HB 重机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:m2_fire_1p",
-    "Fire3P": "dragonrise_reforge:m2_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:m2_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:m2_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:m2_fire_1p",
+    "Fire3P": "zzyvehicles:m2_fire_3p",
+    "Fire3PFar": "zzyvehicles:m2_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:m2_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   }

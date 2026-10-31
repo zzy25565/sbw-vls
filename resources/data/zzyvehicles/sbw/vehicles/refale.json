@@ -195,10 +195,10 @@
    "HeatPerShoot": 1.5,
    "NaturalCooldown": 0.5,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:ref_cannon",
+   "Name": "30mm NEXTER 30M791 航空机炮",
    "SoundInfo": {
-    "FireSoundInstances": "dragonrise_reforge:fire_sound_30mm",
-    "Change": "dragonrise_reforge:change_weapon"
+    "FireSoundInstances": "zzyvehicles:fire_sound_30mm",
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -236,7 +236,7 @@
    "Projectile": "superbwarfare:mk_82",
    "Gravity": 0.05,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:gbu24",
+   "Name": "GBU24 航空炸弹",
    "ExplosionDamage": 450,
    "ExplosionRadius": 10,
    "AddShooterDeltaMovement": true,
@@ -272,7 +272,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirBomb",
    "CrosshairColor": "0x66FF00",
@@ -288,7 +288,7 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Name": "dragonrise_reforge:aasmg",
+      "Name": "superbwarfare:medium_anti_air_missile",
       "SeekWeaponInfo": {
        "SeekDirection": "Barrel",
        "SeekRange": 384,
@@ -307,7 +307,7 @@
    "Magazine": 6,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:aasm",
+   "Name": "AASM 制导炸弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -374,7 +374,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locked"
    },
@@ -394,7 +394,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:mgi2",
+   "Name": "魔术-2 红外空对空导弹",
    "Damage": 260,
    "ExplosionDamage": 90,
    "ExplosionRadius": 6,
@@ -435,7 +435,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },
@@ -519,7 +519,7 @@
   "LiftSpeed": 1.25,
   "SpeedRate": 1.2,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:jet_engine_start",
+  "EngineStartSound": "zzyvehicles:jet_engine_start",
   "EngineSoundVolume": 0.8
  },
  "TerrainCompat": [
@@ -539,5 +539,5 @@
    -0.74
   ]
  ],
- "EngineSound": "dragonrise_reforge:jet_engine"
+ "EngineSound": "zzyvehicles:jet_engine"
 }

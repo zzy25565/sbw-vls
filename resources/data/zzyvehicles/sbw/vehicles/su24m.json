@@ -210,10 +210,10 @@
    "HeatPerShoot": 1.5,
    "NaturalCooldown": 0.5,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:gsh_23",
+   "Name": "GSh-23 23mm 双管机炮",
    "SoundInfo": {
     "FireSoundInstances": "superbwarfare:a_10a_fire",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -248,7 +248,7 @@
    "Magazine": 4,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:agm_65",
-   "Name": "dragonrise_reforge:kh25",
+   "Name": "Kh-25 空对地导弹",
    "Damage": 1000,
    "ExplosionDamage": 160,
    "ExplosionRadius": 10,
@@ -307,7 +307,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -324,7 +324,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:r60",
+   "Name": "R-60 红外空对空导弹",
    "Damage": 240,
    "ExplosionDamage": 80,
    "ExplosionRadius": 6,
@@ -365,7 +365,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },
@@ -430,7 +430,7 @@
   "LiftSpeed": 1.25,
   "SpeedRate": 1.15,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:jet_engine_start",
+  "EngineStartSound": "zzyvehicles:jet_engine_start",
   "EngineSoundVolume": 0.8
  },
  "TerrainCompat": [
@@ -450,5 +450,5 @@
    -0.74
   ]
  ],
- "EngineSound": "dragonrise_reforge:jet_engine"
+ "EngineSound": "zzyvehicles:jet_engine"
 }

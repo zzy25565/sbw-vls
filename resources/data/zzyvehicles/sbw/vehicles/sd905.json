@@ -186,13 +186,13 @@
    "RecoilForce": 0.1,
    "ShootAnimationTime": 3,
    "Spread": 2,
-   "Name": "dragonrise_reforge:30mmM230",
+   "Name": "30mm M230 旋转炮塔",
    "SoundInfo": {
     "Fire1P": "superbwarfare:mi_28_cannon_fire_1p",
     "Fire3P": "superbwarfare:bmp_2_cannon_fire_3p",
     "Fire3PFar": "superbwarfare:mi_28_cannon_far",
     "Fire3PVeryFar": "superbwarfare:mi_28_cannon_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@VehicleCommonGunDynamic",
    "CrosshairColor": "0xFFC700",
@@ -229,7 +229,7 @@
    "Projectile": "superbwarfare:mk_82",
    "Gravity": 0.05,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:500kg",
+   "Name": "500kg 航空炸弹",
    "ExplosionDamage": 300,
    "ExplosionRadius": 8,
    "AddShooterDeltaMovement": true,
@@ -322,7 +322,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 80,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 8
   }

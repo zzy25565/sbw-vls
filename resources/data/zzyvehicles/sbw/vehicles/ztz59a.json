@@ -198,7 +198,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "@VehicleCommonGun",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:type59ap",
+   "Name": "100mm 59式 脱壳穿甲弹",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -211,19 +211,19 @@
       "Damage": 250,
       "ExplosionDamage": 120,
       "ExplosionRadius": 10,
-      "Name": "dragonrise_reforge:type59he"
+      "Name": "superbwarfare:medium_shell_he"
      }
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:ztz59_fire_1p",
-    "Fire3P": "dragonrise_reforge:ztz59_fire_1p",
-    "Fire3PFar": "dragonrise_reforge:ztz59_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:ztz59_fire_3p_far",
-    "VehicleReload": "dragonrise_reforge:ztz99a_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:ztz59_fire_1p",
+    "Fire3P": "zzyvehicles:ztz59_fire_1p",
+    "Fire3PFar": "zzyvehicles:ztz59_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:ztz59_fire_3p_far",
+    "VehicleReload": "zzyvehicles:ztz99a_reload",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
-     "dragonrise_reforge:ztz99a_reload"
+     "zzyvehicles:ztz99a_reload"
     ]
    },
    "SoundRadius": 32,
@@ -276,13 +276,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:type54lmg",
+   "Name": "7.62mm 54式 轻机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -321,13 +321,13 @@
     ]
    },
    "Crosshair": "@VehicleDynamicCross",
-   "Name": "dragonrise_reforge:54T",
+   "Name": "12.7mm 54式 高射机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:qjz89_fire_1p",
-    "Fire3P": "dragonrise_reforge:qjz89_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:qjz89_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:qjz89_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:qjz89_fire_1p",
+    "Fire3P": "zzyvehicles:qjz89_fire_3p",
+    "Fire3PFar": "zzyvehicles:qjz89_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:qjz89_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   }
@@ -458,7 +458,7 @@
    ]
   ]
  },
- "EngineSound": "dragonrise_reforge:tank_engine_loop3",
+ "EngineSound": "zzyvehicles:tank_engine_loop3",
  "HudType": "@Land",
  "InertiaRotateRate": 1.2,
  "TerrainCompat": [

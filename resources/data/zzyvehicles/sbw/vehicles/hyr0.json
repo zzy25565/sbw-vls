@@ -179,7 +179,7 @@
    "ShootAnimationTime": 140,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:hyr0ap",
+   "Name": "334mm ??? AP",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -192,19 +192,19 @@
       "Damage": 1000,
       "ExplosionDamage": 450,
       "ExplosionRadius": 30,
-      "Name": "dragonrise_reforge:hyr0he"
+      "Name": "superbwarfare:large_shell_he"
      }
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_125mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_125mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_125mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_125mm_fire_3p_very_far",
-    "VehicleReload": "dragonrise_reforge:ztz99a_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:cannon_125mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_125mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_125mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_125mm_fire_3p_very_far",
+    "VehicleReload": "zzyvehicles:ztz99a_reload",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
-     "dragonrise_reforge:ztz99a_reload"
+     "zzyvehicles:ztz99a_reload"
     ]
    },
    "SoundRadius": 32,
@@ -240,13 +240,13 @@
    "Spread": 0.5,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0xFFC700",
-   "Name": "dragonrise_reforge:hyr020",
+   "Name": "20mm ???",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_30mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_30mm_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:cannon_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_30mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_30mm_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:small_shell_ap",
@@ -290,7 +290,7 @@
    "ShootAnimationTime": 20,
    "Crosshair": "@VehicleUsApc",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:hyr030",
+   "Name": "76mm ???",
    "SeekWeaponInfo": {
     "SeekDirection": "Barrel",
     "SeekRange": 384,
@@ -302,13 +302,13 @@
     "CalculateTrajectory": true
    },
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:fire_sound_57mm",
-    "Fire3P": "dragonrise_reforge:fire_sound_57mm",
-    "Fire3PFar": "dragonrise_reforge:fire_sound_57mm_far",
-    "Fire3PVeryFar": "dragonrise_reforge:fire_sound_57mm_far",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:fire_sound_57mm",
+    "Fire3P": "zzyvehicles:fire_sound_57mm",
+    "Fire3PFar": "zzyvehicles:fire_sound_57mm_far",
+    "Fire3PVeryFar": "zzyvehicles:fire_sound_57mm_far",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
-     "dragonrise_reforge:ztz99a_reload"
+     "zzyvehicles:ztz99a_reload"
     ]
    },
    "SoundRadius": 32,
@@ -454,7 +454,7 @@
    ]
   ]
  },
- "EngineSound": "dragonrise_reforge:ztz99a_engine",
+ "EngineSound": "zzyvehicles:ztz99a_engine",
  "HudType": "@Land",
  "InertiaRotateRate": 1.2,
  "TerrainCompat": [

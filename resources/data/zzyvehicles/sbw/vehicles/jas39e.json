@@ -268,10 +268,10 @@
    "HeatPerShoot": 1.5,
    "NaturalCooldown": 0.5,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:27mm",
+   "Name": "27mm Mauser BK27 航空机炮",
    "SoundInfo": {
-    "FireSoundInstances": "dragonrise_reforge:fire_sound_30mm",
-    "Change": "dragonrise_reforge:change_weapon"
+    "FireSoundInstances": "zzyvehicles:fire_sound_30mm",
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -300,7 +300,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:igla_9k38_missile",
-   "Name": "dragonrise_reforge:aim9",
+   "Name": "AIM9 响尾蛇 空对空导弹",
    "Damage": 260,
    "ExplosionDamage": 90,
    "ExplosionRadius": 6,
@@ -342,7 +342,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },
@@ -375,7 +375,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:aim120",
+   "Name": "AIM120 空对空导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -436,7 +436,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -459,7 +459,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:aim120",
+   "Name": "AIM120 空对空导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -507,8 +507,8 @@
      "Ammo": "superbwarfare:large_anti_ground_missile",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "dragonrise_reforge:agm65",
-      "Name": "dragonrise_reforge:agm65",
+      "Projectile": "superbwarfare:agm_65",
+      "Name": "superbwarfare:medium_anti_ground_missile",
       "Magazine": 2,
       "Velocity": 2.5,
       "UseNacelleCamera": true,
@@ -581,7 +581,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -615,7 +615,7 @@
    "Magazine": 3,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:kh_39",
-   "Name": "dragonrise_reforge:aim120",
+   "Name": "AIM120 空对空导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -668,8 +668,8 @@
      "Ammo": "superbwarfare:medium_aerial_bomb",
      "ShouldUnload": false,
      "Override": {
-      "Projectile": "dragonrise_reforge:gbu_12",
-      "Name": "dragonrise_reforge:gbu12",
+      "Projectile": "superbwarfare:mk_82",
+      "Name": "superbwarfare:medium_aerial_bomb",
       "Magazine": 3,
       "Gravity": 0.06,
       "Velocity": 0.6333,
@@ -750,7 +750,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -836,7 +836,7 @@
   "LiftSpeed": 1.25,
   "SpeedRate": 1.2,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:jet_engine_start",
+  "EngineStartSound": "zzyvehicles:jet_engine_start",
   "EngineSoundVolume": 0.8
  },
  "TerrainCompat": [
@@ -856,5 +856,5 @@
    -1.922
   ]
  ],
- "EngineSound": "dragonrise_reforge:jet_engine"
+ "EngineSound": "zzyvehicles:jet_engine"
 }

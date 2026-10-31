@@ -237,7 +237,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "0x00ff66",
-   "Name": "dragonrise_reforge:dtc10105",
+   "Name": "105mm DTC-10 穿甲弹",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -250,7 +250,7 @@
       "Damage": 250,
       "ExplosionDamage": 120,
       "ExplosionRadius": 10,
-      "Name": "dragonrise_reforge:dtb10105"
+      "Name": "superbwarfare:medium_shell_he"
      }
     },
     {
@@ -258,7 +258,7 @@
      "Override": {
       "Spread": 0.5,
       "CrosshairColor": "0xFFC700",
-      "Name": "dragonrise_reforge:gp105",
+      "Name": "superbwarfare:medium_shell_ap",
       "Projectile": "superbwarfare:wire_guide_missile",
       "IsArmorPiercingProjectile": true,
       "Damage": 600,
@@ -269,12 +269,12 @@
       "RecoilForce": 0.05,
       "Crosshair": "@VehicleCommonMissile",
       "SoundInfo": {
-       "Fire1P": "dragonrise_reforge:cannon_125mm_fire_1p",
-       "Fire3P": "dragonrise_reforge:cannon_125mm_fire_3p",
-       "Fire3PFar": "dragonrise_reforge:cannon_125mm_fire_3p_far",
-       "Fire3PVeryFar": "dragonrise_reforge:cannon_125mm_fire_3p_very_far",
-       "VehicleReload": "dragonrise_reforge:zbd04a_100mm_reload",
-       "Change": "dragonrise_reforge:change_weapon"
+       "Fire1P": "zzyvehicles:cannon_125mm_fire_1p",
+       "Fire3P": "zzyvehicles:cannon_125mm_fire_3p",
+       "Fire3PFar": "zzyvehicles:cannon_125mm_fire_3p_far",
+       "Fire3PVeryFar": "zzyvehicles:cannon_125mm_fire_3p_very_far",
+       "VehicleReload": "zzyvehicles:zbd04a_100mm_reload",
+       "Change": "zzyvehicles:change_weapon"
       },
       "SoundRadius": 12,
       "Icon": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/weapon/icons/missile_gp_105.png"
@@ -282,14 +282,14 @@
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_125mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_125mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_125mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_125mm_fire_3p_very_far",
-    "VehicleReload": "dragonrise_reforge:zbd04a_100mm_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Fire1P": "zzyvehicles:cannon_125mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_125mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_125mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_125mm_fire_3p_very_far",
+    "VehicleReload": "zzyvehicles:zbd04a_100mm_reload",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
-     "dragonrise_reforge:zbd04a_100mm_reload"
+     "zzyvehicles:zbd04a_100mm_reload"
     ]
    },
    "SoundRadius": 32,
@@ -342,13 +342,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:QJT",
+   "Name": "5.8mm QJT 同轴机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -387,13 +387,13 @@
     ]
    },
    "Crosshair": "@VehicleCommonGun",
-   "Name": "dragonrise_reforge:W85",
+   "Name": "12.7mm W85 高射机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:qjz89_fire_1p",
-    "Fire3P": "dragonrise_reforge:qjz89_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:qjz89_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:qjz89_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:qjz89_fire_1p",
+    "Fire3P": "zzyvehicles:qjz89_fire_3p",
+    "Fire3PFar": "zzyvehicles:qjz89_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:qjz89_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 16
   },
@@ -417,13 +417,13 @@
    "Spread": 1.2,
    "Crosshair": "@VehicleCommonGun",
    "CrosshairColor": "0xFFC700",
-   "Name": "dragonrise_reforge:87",
+   "Name": "87式 榴弹发射器",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:cannon_30mm_fire_1p",
-    "Fire3P": "dragonrise_reforge:cannon_30mm_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:cannon_30mm_fire_3p_far",
-    "Fire3PVeryFar": "dragonrise_reforge:cannon_30mm_fire_3p_very_far",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Fire1P": "zzyvehicles:cannon_30mm_fire_1p",
+    "Fire3P": "zzyvehicles:cannon_30mm_fire_3p",
+    "Fire3PFar": "zzyvehicles:cannon_30mm_fire_3p_far",
+    "Fire3PVeryFar": "zzyvehicles:cannon_30mm_fire_3p_very_far",
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "superbwarfare:grenade_40mm",
@@ -569,7 +569,7 @@
    ]
   ]
  },
- "EngineSound": "dragonrise_reforge:ztz99a_engine",
+ "EngineSound": "zzyvehicles:ztz99a_engine",
  "HudType": "@Land",
  "InertiaRotateRate": 1.2,
  "TerrainCompat": [

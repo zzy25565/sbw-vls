@@ -343,7 +343,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "#da2d2d",
-   "Name": "dragonrise_reforge:of6",
+   "Name": "6磅炮",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -356,7 +356,7 @@
       "Damage": 250,
       "ExplosionDamage": 120,
       "ExplosionRadius": 10,
-      "Name": "dragonrise_reforge:of6_he"
+      "Name": "superbwarfare:large_shell_he"
      }
     },
     {
@@ -375,12 +375,12 @@
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:t80_fire_1p",
-    "Fire3P": "dragonrise_reforge:t80_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:t80_fire_3p_far",
+    "Fire1P": "zzyvehicles:t80_fire_1p",
+    "Fire3P": "zzyvehicles:t80_fire_3p",
+    "Fire3PFar": "zzyvehicles:t80_fire_3p_far",
     "Fire3PVeryFar": "superbwarfare:m_1a_2_veryfar",
     "VehicleReload": "superbwarfare:m_1a_2_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
      "superbwarfare:m_1a_2_reload"
     ]
@@ -424,7 +424,7 @@
    "ShootAnimationTime": 40,
    "Crosshair": "zzyvehicles:restored/dragonrise_reforge/textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
    "CrosshairColor": "#da2d2d",
-   "Name": "dragonrise_reforge:of6",
+   "Name": "6磅炮",
    "AmmoType": [
     "superbwarfare:large_shell_ap",
     {
@@ -437,17 +437,17 @@
       "Damage": 250,
       "ExplosionDamage": 120,
       "ExplosionRadius": 10,
-      "Name": "dragonrise_reforge:of6_he"
+      "Name": "superbwarfare:large_shell_he"
      }
     }
    ],
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:t80_fire_1p",
-    "Fire3P": "dragonrise_reforge:t80_fire_3p",
-    "Fire3PFar": "dragonrise_reforge:t80_fire_3p_far",
+    "Fire1P": "zzyvehicles:t80_fire_1p",
+    "Fire3P": "zzyvehicles:t80_fire_3p",
+    "Fire3PFar": "zzyvehicles:t80_fire_3p_far",
     "Fire3PVeryFar": "superbwarfare:m_1a_2_veryfar",
     "VehicleReload": "superbwarfare:m_1a_2_reload",
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "CancellableSounds": [
      "superbwarfare:m_1a_2_reload"
     ]
@@ -668,7 +668,7 @@
    ]
   ]
  },
- "EngineSound": "dragonrise_reforge:m2a3_engine_loop",
+ "EngineSound": "zzyvehicles:m2a3_engine_loop",
  "HudType": "@Land",
  "InertiaRotateRate": 1.2,
  "TerrainCompat": [

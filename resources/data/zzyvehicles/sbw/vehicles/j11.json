@@ -223,10 +223,10 @@
    "HeatPerShoot": 1.5,
    "NaturalCooldown": 0.5,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:23mm",
+   "Name": "23mm 23L航空机炮",
    "SoundInfo": {
-    "FireSoundInstances": "dragonrise_reforge:fire_sound_30mm",
-    "Change": "dragonrise_reforge:change_weapon"
+    "FireSoundInstances": "zzyvehicles:fire_sound_30mm",
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -262,7 +262,7 @@
    "Magazine": 4,
    "EmptyReloadTime": 260,
    "Projectile": "superbwarfare:ru_9m336_missile",
-   "Name": "dragonrise_reforge:pl8",
+   "Name": "霹雳-8 红外空对空导弹",
    "Damage": 260,
    "ExplosionDamage": 90,
    "ExplosionRadius": 6,
@@ -313,7 +313,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:javelin_locking",
     "Locked": "superbwarfare:javelin_locking"
    },
@@ -329,7 +329,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:agm_65",
-   "Name": "dragonrise_reforge:pl12",
+   "Name": "霹雳12 雷达空对空导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -377,7 +377,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -393,7 +393,7 @@
    "Magazine": 2,
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:agm_65",
-   "Name": "dragonrise_reforge:yj88c",
+   "Name": "空地-88 反坦克导弹",
    "Damage": 1100,
    "ExplosionDamage": 180,
    "ExplosionRadius": 12,
@@ -441,7 +441,7 @@
     "Fire3P": "superbwarfare:bomb_release",
     "VehicleReload3p": "superbwarfare:bomb_reload",
     "VehicleReloadSoundTime": 11,
-    "Change": "dragonrise_reforge:change_weapon",
+    "Change": "zzyvehicles:change_weapon",
     "Locking": "superbwarfare:missile_locking",
     "Locked": "superbwarfare:missile_locked"
    },
@@ -508,7 +508,7 @@
   "SpeedRate": 1.2,
   "Resistance": 1.2,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:jet_engine_start",
+  "EngineStartSound": "zzyvehicles:jet_engine_start",
   "EngineSoundVolume": 0.8
  },
  "TerrainCompat": [
@@ -528,5 +528,5 @@
    -0.74
   ]
  ],
- "EngineSound": "dragonrise_reforge:jet_engine"
+ "EngineSound": "zzyvehicles:jet_engine"
 }

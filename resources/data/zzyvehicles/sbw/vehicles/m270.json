@@ -149,7 +149,7 @@
    "EmptyReloadTime": 200,
    "Projectile": "superbwarfare:small_rocket",
    "Spread": 0.25,
-   "Name": "dragonrise_reforge:mlrs_rocket",
+   "Name": "227mm M26 火箭弹",
    "RPM": 60,
    "Damage": 85,
    "ExplosionDamage": 42,
@@ -243,7 +243,7 @@
     "Fire3P": "superbwarfare:small_rocket_fire_3p",
     "VehicleReload3p": "superbwarfare:missile_reload",
     "VehicleReloadSoundTime": 7,
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@Empty",
    "SoundRadius": 12
@@ -266,13 +266,13 @@
    "Spread": 0.6,
    "Crosshair": "@VehicleCommonGun",
    "CrosshairColor": "0xFFC700",
-   "Name": "dragonrise_reforge:M2HB",
+   "Name": "12.7mm M2HB 重机枪",
    "SoundInfo": {
-    "Fire1P": "dragonrise_reforge:mgfire11",
-    "Fire3P": "dragonrise_reforge:mgfire11",
-    "Fire3PFar": "dragonrise_reforge:mgfire11",
+    "Fire1P": "zzyvehicles:mgfire11",
+    "Fire3P": "zzyvehicles:mgfire11",
+    "Fire3PFar": "zzyvehicles:mgfire11",
     "Fire3PVeryFar": "superbwarfare:m_2_hb_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "SoundRadius": 24,
    "AmmoType": "@HeavyAmmo",
@@ -348,7 +348,7 @@
  "VehicleIcon": "zzyvehicles:restored/dragonrise_reforge/textures/vehicle_icon/m270_icon.png",
  "ContainerIcon": "zzyvehicles:textures/gui/vehicle/type/us_land.png",
  "Type": "APC",
- "EngineSound": "dragonrise_reforge:m2a3_engine_loop",
+ "EngineSound": "zzyvehicles:m2a3_engine_loop",
  "HornSound": "superbwarfare:truck_horn",
  "TerrainCompat": [
   [

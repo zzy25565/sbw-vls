@@ -164,13 +164,13 @@
    "HeatPerShoot": 1.5,
    "NaturalCooldown": 0.5,
    "Spread": 0.5,
-   "Name": "dragonrise_reforge:vickers_303",
+   "Name": "7.7mm 维克斯机枪",
    "SoundInfo": {
     "Fire1P": "superbwarfare:coax_fire_1p",
     "Fire3P": "superbwarfare:m_60_fire_3p",
     "Fire3PFar": "superbwarfare:m_60_far",
     "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
-    "Change": "dragonrise_reforge:change_weapon"
+    "Change": "zzyvehicles:change_weapon"
    },
    "Crosshair": "@AirCraftCommon",
    "CrosshairColor": "0x66FF00",
@@ -259,7 +259,7 @@
   "LiftSpeed": 1.6,
   "SpeedRate": 0.5,
   "GearRotateAngle": 85,
-  "EngineStartSound": "dragonrise_reforge:plane_start1",
+  "EngineStartSound": "zzyvehicles:plane_start1",
   "EngineSoundVolume": 1
  },
  "TerrainCompat": [
@@ -279,5 +279,5 @@
    1
   ]
  ],
- "EngineSound": "dragonrise_reforge:plane_loop"
+ "EngineSound": "zzyvehicles:plane_loop"
 }
