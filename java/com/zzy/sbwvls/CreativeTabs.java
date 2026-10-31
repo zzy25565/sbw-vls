@@ -1,6 +1,7 @@
 package com.zzy.sbwvls;
 
 import com.atsuishio.superbwarfare.item.container.ContainerBlockItem;
+import cn.zzy.vehicles.ZzyVehicles;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityType;
@@ -40,7 +41,6 @@ public final class CreativeTabs {
         cat("artillery", "vls_cruise_24", "bkan1c", "gvozdika_2s1", "m270", "vls_ballistic_16", "vls_ballistic_8", "vls_cruise_12", "vls_cruise_24", "vls_turret");
         cat("defense", "9m133", "9m133", "hj8", "mk19", "npds114", "npds514", "npds810", "qjz89", "shield", "spg9", "zu23");
 
-
         for (Category c : CATEGORIES) {
             TABS.register(c.name(), () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.sbw_vls." + c.name()))
@@ -53,6 +53,26 @@ public final class CreativeTabs {
                     })
                     .build());
         }
+
+        // 全量分类：动态枚举所有注册的载具与平台物品，新增载具自动进栏，永不遗漏。
+        TABS.register("all", () -> CreativeModeTab.builder()
+                .title(Component.translatable("itemGroup.sbw_vls.all"))
+                .icon(() -> stackFor("buk_m3"))
+                .displayItems((params, out) -> {
+                    // 平台物品（雷达车/发射平台等独立注册的 Item）
+                    ZzyVehicles.ITEMS.getEntries().forEach(e -> out.accept(new ItemStack(e.get())));
+                    // 特殊实体（独立注册、不走 MergedVehicles 的载具）
+                    for (String id : new String[]{"vls_turret", "buk_m3", "vls_cruise_12", "vls_cruise_24", "vls_ballistic_8", "vls_ballistic_16"}) {
+                        ItemStack s = stackFor(id);
+                        if (!s.isEmpty()) out.accept(s);
+                    }
+                    // 全部合并载具（MergedVehicles 注册表，排序保证稳定）
+                    MergedVehicles.TYPES.keySet().stream().sorted().forEach(id -> {
+                        ItemStack s = stackFor(id);
+                        if (!s.isEmpty()) out.accept(s);
+                    });
+                })
+                .build());
     }
 
     public static ItemStack stackFor(String id) {

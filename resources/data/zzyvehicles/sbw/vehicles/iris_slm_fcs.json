@@ -41,10 +41,21 @@
      0.512,
      2.368
     ]
-   }
+   },
+   "Weapons": [
+    "Empty"
+   ]
   }
  ],
- "Weapons": {},
+ "Weapons": {
+  "Empty": {
+   "Name": "",
+   "Crosshair": "@Empty",
+   "RPM": 0,
+   "Magazine": 0,
+   "Damage": 0
+  }
+ },
  "Mass": 38,
  "DamageModifiers": [
   "All - 10",

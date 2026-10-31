@@ -2005,7 +2005,9 @@
    "CanRotateHead": true,
    "MinPitch": -80,
    "MaxPitch": 80,
-   "Weapons": [],
+   "Weapons": [
+    "Empty"
+   ],
    "CameraPos": {
     "Transform": "Vehicle",
     "Position": [
@@ -2031,7 +2033,15 @@
    }
   }
  ],
- "Weapons": {},
+ "Weapons": {
+  "Empty": {
+   "Name": "",
+   "Crosshair": "@Empty",
+   "RPM": 0,
+   "Magazine": 0,
+   "Damage": 0
+  }
+ },
  "EngineType": "Track",
  "UpStep": 0.8,
  "RotateOffsetHeight": 1.575,
