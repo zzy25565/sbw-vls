@@ -34,8 +34,8 @@ with zipfile.ZipFile(INPUT) as src,zipfile.ZipFile(OUT,'w',zipfile.ZIP_DEFLATED,
         data=src.read(n);new=data
         if n=='META-INF/neoforge.mods.toml':
             s=data.decode('utf-8');s=s.replace('version="1.0.0j"','version="'+VERSION+'"')
-            s=re.sub(r'^displayName=.*$', 'displayName="ZZY Vehicles (281 vehicle definitions)"',s,flags=re.M)
-            s=re.sub(r'^description=.*$', 'description="281 vehicle definitions. WWII platforms removed; five aircraft noses restored and smoothed in Blender; Mi-17 orientation, Huey texture and Buk-M3 registration fixed."',s,flags=re.M)
+            s=re.sub(r'^displayName=.*$', 'displayName="VLS 附属"',s,flags=re.M)
+            s=re.sub(r'^description=.*$', 'description="SBW VLS 附属载具包（281 台载具定义，modId 保持 zzyvehicles 以兼容旧存档）。包含二战平台清理、五款飞机机头 Blender 重建、Mi-17 朝向修复；并为 venom/mi17/toyota_seiki/z_sts_akhmat/aavc7c1 接入武器系统。"',s,flags=re.M)
             new=s.encode('utf-8')
         elif n.startswith('assets/') and '/lang/' in n and n.endswith('.json'):
             lang=json.loads(data); lang={k:v for k,v in lang.items() if not any(vv in k.split('.') for vv in removed)}

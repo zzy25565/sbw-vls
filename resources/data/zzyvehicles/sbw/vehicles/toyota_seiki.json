@@ -179,5 +179,72 @@
    -1.0625
   ]
  ],
- "InertiaRotateRate": 0.9
+ "InertiaRotateRate": 0.9,
+ "Weapons": {
+  "PassengerMachineGun": {
+   "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/gun_12_7mm.png",
+   "DefaultFireMode": "Auto",
+   "AvailableFireModes": [
+    "Auto"
+   ],
+   "Spread": 0.3,
+   "CrosshairColor": "0x00ff66",
+   "Projectile": "superbwarfare:projectile",
+   "DefaultZoom": 3,
+   "RPM": 600,
+   "Damage": 12,
+   "BypassesArmor": 0.2,
+   "Velocity": 28.4333,
+   "Gravity": 0.05,
+   "RecoilTime": 10,
+   "RecoilForce": 0.05,
+   "HeatPerShoot": 2,
+   "NaturalCooldown": 1,
+   "ShootAnimationTime": 1,
+   "Magazine": 250,
+   "EmptyReloadTime": 160,
+   "AmmoType": "@RifleAmmo",
+   "ShootPos": {
+    "Transform": "WeaponStationBarrel",
+    "Positions": [
+     [
+      0,
+      0.05,
+      1.0
+     ]
+    ],
+    "Directions": [
+     "WeaponStationBarrel"
+    ]
+   },
+   "Crosshair": "@VehicleCommonGun",
+   "Name": "weapon.zzyvehicles.toyota_seiki_mg",
+   "SoundInfo": {
+    "Fire1P": "superbwarfare:coax_fire_1p",
+    "Fire3P": "superbwarfare:m_60_fire_3p",
+    "Fire3PFar": "superbwarfare:m_60_far",
+    "Fire3PVeryFar": "superbwarfare:m_60_veryfar",
+    "Change": "superbwarfare:into_cannon"
+   },
+   "SoundRadius": 12
+  }
+ },
+ "PassengerWeaponStationPos": [
+  0.0,
+  1.2,
+  -2.5
+ ],
+ "PassengerWeaponStationBarrelPos": [
+  0.0,
+  0.3,
+  0.15
+ ],
+ "PassengerWeaponStationTurnSpeed": [
+  15,
+  15
+ ],
+ "PassengerWeaponStationPitchRange": [
+  -10,
+  60
+ ]
 }
