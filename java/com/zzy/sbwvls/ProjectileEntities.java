@@ -2,6 +2,7 @@ package com.zzy.sbwvls;
 
 import cn.zzy.vehicles.ZzyVehicles;
 import com.redabysslucia.dragonrise_reforge.entities.projectile.*;
+import cn.zzy.vehicles.entity.BukMissileEntity;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
@@ -30,6 +31,10 @@ public final class ProjectileEntities {
     public static final DeferredHolder<EntityType<?>, EntityType<Gbu12Entity>> GBU12 = reg("gbu_12", Gbu12Entity::new);
     public static final DeferredHolder<EntityType<?>, EntityType<Gbu24Entity>> GBU24 = reg("gbu_24", Gbu24Entity::new);
     public static final DeferredHolder<EntityType<?>, EntityType<Gb250Entity>> GB250 = reg("gb_250", Gb250Entity::new);
+
+    // 分体式防空车专用弹（爬升-巡航-俯冲弹道，雷达联动）
+    public static final DeferredHolder<EntityType<?>, EntityType<BukMissileEntity>> BUK_MISSILE_01 = reg("buk_missile_01", BukMissileEntity::new);
+    public static final DeferredHolder<EntityType<?>, EntityType<BukMissileEntity>> BUK_MISSILE_02 = reg("buk_missile_02", BukMissileEntity::new);
 
     private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> reg(String id, EntityType.EntityFactory<T> factory) {
         return ENTITIES.register(id, () -> EntityType.Builder.of(factory, MobCategory.MISC)
